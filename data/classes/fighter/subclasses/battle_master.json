@@ -1,0 +1,103 @@
+{
+  "id": "battle_master_2024",
+  "name": "Battle Master (Fighter Subclass - 2024)",
+  "class_id": "fighter_2024",
+  "description": "The Battle Master Fighter is a tactical warrior who uses special maneuvers fueled by Superiority Dice to control the battlefield and enhance their attacks.",
+  "source": "Dungeons and Dragons Fan - 2024 Battle Master Guide (derived from 2024 PHB)",
+  "superiority_dice": {
+    "dice_at_level_3": "4d8",
+    "dice_at_level_7": "5d8",
+    "dice_at_level_10": "5d10 (Improved Combat Superiority)",
+    "dice_at_level_15": "6d10",
+    "dice_at_level_18": "6d12 (Improved Combat Superiority)",
+    "recharge": "Regain all expended superiority dice when you finish a short or long rest."
+  },
+  "maneuvers_known": {
+    "level_3": 3,
+    "level_7": 5,
+    "level_10": 7,
+    "level_15": 9
+  },
+  "features_by_level": {
+    "3": [
+      {
+        "id": "battle_master_combat_superiority_2024",
+        "name": "Combat Superiority",
+        "description": "You learn maneuvers that are fueled by special dice called superiority dice. You learn three maneuvers of your choice from the list of available maneuvers. You gain superiority dice as detailed in the 'superiority_dice' section. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest. You can only use one maneuver per attack. Saving throw DC for maneuvers = 8 + proficiency bonus + Strength or Dexterity modifier (your choice)."
+      },
+      {
+        "id": "battle_master_student_of_war_2024",
+        "name": "Student of War",
+        "description": "You gain proficiency with one type of artisan’s tools of your choice and proficiency in one skill from the Fighter skill list."
+      }
+    ],
+    "7": [
+      {
+        "id": "battle_master_know_your_enemy_2024",
+        "name": "Know Your Enemy",
+        "description": "You can automatically detect a target_s Resistances, Immunities, and Vulnerabilities by looking at them. This has a limited number of uses per day, recharging on a long rest. (Exact uses per day to be confirmed from PHB)."
+      },
+      {
+        "id": "battle_master_maneuvers_known_7_2024",
+        "name": "Maneuvers Known",
+        "description": "You learn two additional maneuvers of your choice."
+      }
+    ],
+    "10": [
+      {
+        "id": "battle_master_improved_combat_superiority_d10_2024",
+        "name": "Improved Combat Superiority (d10)",
+        "description": "Your superiority dice turn into d10s."
+      },
+      {
+        "id": "battle_master_maneuvers_known_10_2024",
+        "name": "Maneuvers Known",
+        "description": "You learn two additional maneuvers of your choice."
+      }
+    ],
+    "15": [
+      {
+        "id": "battle_master_relentless_presence_2024",
+        "name": "Relentless Presence",
+        "description": "Once per turn, you can use a free d8 instead of spending one of your regular Superiority Dice for a maneuver."
+      },
+      {
+        "id": "battle_master_maneuvers_known_15_2024",
+        "name": "Maneuvers Known",
+        "description": "You learn two additional maneuvers of your choice."
+      }
+    ],
+    "18": [
+      {
+        "id": "battle_master_improved_combat_superiority_d12_2024",
+        "name": "Improved Combat Superiority (d12)",
+        "description": "Your superiority dice turn into d12s."
+      }
+    ]
+  },
+  "maneuvers_list": [
+    {"id": "maneuver_ambush_2024", "name": "Ambush", "description": "When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren’t incapacitated."},
+    {"id": "maneuver_bait_and_switch_2024", "name": "Bait and Switch", "description": "When you’re within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn’t incapacitated. This movement doesn’t provoke opportunity attacks. Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled."},
+    {"id": "maneuver_brace_2024", "name": "Brace", "description": "When a creature you can see moves into the reach you have with the melee weapon you’re wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon’s damage roll."},
+    {"id": "maneuver_commanders_strike_2024", "name": "Commander_s Strike", "description": "When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack’s damage roll."},
+    {"id": "maneuver_commanding_presence_2024", "name": "Commanding Presence", "description": "When you make a Charisma (Intimidation), a Charisma (Performance), or a Charisma (Persuasion) check, you can expend one superiority die and add the superiority die to the ability check."},
+    {"id": "maneuver_disarming_attack_2024", "name": "Disarming Attack", "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the superiority die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."},
+    {"id": "maneuver_distracting_strike_2024", "name": "Distracting Strike", "description": "When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."},
+    {"id": "maneuver_evasive_footwork_2024", "name": "Evasive Footwork", "description": "When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving."},
+    {"id": "maneuver_feinting_attack_2024", "name": "Feinting Attack", "description": "You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature this turn. If that attack hits, add the superiority die to the attack’s damage roll."},
+    {"id": "maneuver_goading_attack_2024", "name": "Goading Attack", "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."},
+    {"id": "maneuver_grappling_strike_2024", "name": "Grappling Strike", "description": "Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action. Add the superiority die to your Strength (Athletics) check."},
+    {"id": "maneuver_lunging_attack_2024", "name": "Lunging Attack", "description": "When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack’s damage roll."},
+    {"id": "maneuver_maneuvering_attack_2024", "name": "Maneuvering Attack", "description": "When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack’s damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."},
+    {"id": "maneuver_menacing_attack_2024", "name": "Menacing Attack", "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn."},
+    {"id": "maneuver_parry_2024", "name": "Parry", "description": "When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."},
+    {"id": "maneuver_precision_attack_2024", "name": "Precision Attack", "description": "When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."},
+    {"id": "maneuver_pushing_attack_2024", "name": "Pushing Attack", "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."},
+    {"id": "maneuver_quick_toss_2024", "name": "Quick Toss", "description": "As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon’s damage roll."},
+    {"id": "maneuver_rally_2024", "name": "Rally", "description": "On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier."},
+    {"id": "maneuver_riposte_2024", "name": "Riposte", "description": "When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack’s damage roll."},
+    {"id": "maneuver_sweeping_attack_2024", "name": "Sweeping Attack", "description": "When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."},
+    {"id": "maneuver_tactical_assessment_2024", "name": "Tactical Assessment", "description": "When you make an Intelligence (Investigation), an Intelligence (History), or a Wisdom (Insight) check, you can expend one superiority die and add the superiority die to the ability check."},
+    {"id": "maneuver_trip_attack_2024", "name": "Trip Attack", "description": "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone."}
+  ]
+}

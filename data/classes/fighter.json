@@ -95,6 +95,26 @@
       "id": "champion_2024",
       "name": "Champion",
       "path_to_file": "data/classes/fighter/subclasses/champion.json"
+    },
+    {
+      "id": "eldritch_knight_2024",
+      "name": "Eldritch Knight",
+      "path_to_file": "data/classes/fighter/subclasses/eldritch_knight.json"
+    },
+    {
+      "id": "psi_warrior_2024",
+      "name": "Psi Warrior",
+      "path_to_file": "data/classes/fighter/subclasses/psi_warrior.json"
+    },
+    {
+      "id": "purple_dragon_knight_2024",
+      "name": "Purple Dragon Knight",
+      "path_to_file": "data/classes/fighter/subclasses/purple_dragon_knight.json"
+    },
+    {
+      "id": "battle_master_2024",
+      "name": "Battle Master",
+      "path_to_file": "data/classes/fighter/subclasses/battle_master.json"
     }
   ]
 }

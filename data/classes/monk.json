@@ -1,0 +1,122 @@
+{
+  "id": "monk_2024",
+  "name": "Monk (2024)",
+  "description": "Monks use rigorous combat training and mental discipline to align themselves with the multiverse and focus their internal reservoirs of power (Focus Points).",
+  "hit_die": "d8",
+  "primary_ability": ["Dexterity", "Wisdom"],
+  "proficiencies": {
+    "armor": ["None"],
+    "weapons": ["Simple weapons", "Martial weapons that have the Light property"],
+    "tools": ["Choose one type of Artisan_s Tools or Musical Instrument"],
+    "saving_throws": ["Strength", "Dexterity"],
+    "skills": {
+      "choose": 2,
+      "from": ["Acrobatics", "Athletics", "History", "Insight", "Religion", "Stealth"]
+    }
+  },
+  "starting_equipment_options": [
+    "(A) Spear, 5 Daggers, Artisan’s Tools or Musical Instrument chosen for proficiency, Explorer’s Pack, and 11 GP",
+    "(B) 50 GP"
+  ],
+  "focus_points_progression_note": "Gains Focus Points equal to Monk level, as shown in Monk Features table.",
+  "martial_arts_die_progression": {
+    "1": "1d6", "5": "1d8", "11": "1d10", "17": "1d12"
+  },
+  "unarmored_movement_progression": {
+    "2": "+10 ft.", "6": "+15 ft.", "10": "+20 ft.", "14": "+25 ft.", "18": "+30 ft."
+  },
+  "features_by_level": {
+    "1": [
+      {"id": "monk_martial_arts_2024", "name": "Martial Arts", "description": "Mastery of combat styles using Unarmed Strike and Monk weapons (Simple Melee, Martial Melee with Light property). Benefits while unarmed/only Monk weapons & no armor/shield: Bonus Unarmed Strike (Bonus Action); Martial Arts Die (use for Unarmed/Monk weapon damage); Dexterous Attacks (Dex for attack/damage with Unarmed/Monk weapons, and for Grapple/Shove DC)."},
+      {"id": "monk_unarmored_defense_2024", "name": "Unarmored Defense", "description": "While not wearing armor or wielding a Shield, AC = 10 + Dexterity modifier + Wisdom modifier."}
+    ],
+    "2": [
+      {"id": "monk_monks_focus_2024", "name": "Monk_s Focus", "description": "Harness energy represented by Focus Points (equal to Monk level, regain on Short/Long Rest). Spend points for features: Flurry of Blows (1 pt, 2 Unarmed Strikes as Bonus Action), Patient Defense (Disengage as Bonus Action; OR 1pt, Disengage AND Dodge as Bonus Action), Step of the Wind (Dash as Bonus Action; OR 1pt, Disengage AND Dash as Bonus Action, jump distance doubled). Save DC = 8 + Wis mod + Prof Bonus."},
+      {"id": "monk_unarmored_movement_2024", "name": "Unarmored Movement", "description": "Speed increases while not wearing armor/shield (see progression)."},
+      {"id": "monk_uncanny_metabolism_2024", "name": "Uncanny Metabolism", "description": "When rolling Initiative, can regain all expended Focus Points. Roll Martial Arts die, regain HP = Monk level + roll. Once per Long Rest."}
+    ],
+    "3": [
+      {"id": "monk_deflect_attacks_2024", "name": "Deflect Attacks", "description": "Reaction to reduce Bludgeoning/Piercing/Slashing damage from an attack by 1d10 + Dex mod + Monk level. If damage reduced to 0, can expend 1 Focus Point to redirect force (make attack vs creature within 5ft (melee) or 60ft (ranged); target makes Dex save or takes damage = 2x Martial Arts die + Dex mod, same type as original attack)."},
+      {"id": "monk_subclass_2024", "name": "Monk Subclass", "description": "Gain a Monk subclass. (Warrior of the Open Hand detailed in Basic Rules)."}
+    ],
+    "4": [
+      {"id": "monk_asi_4_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."},
+      {"id": "monk_slow_fall_2024", "name": "Slow Fall", "description": "Reaction when falling to reduce fall damage by 5x Monk level."}
+    ],
+    "5": [
+      {"id": "monk_extra_attack_2024", "name": "Extra Attack", "description": "Attack twice when taking Attack action."},
+      {"id": "monk_stunning_strike_2024", "name": "Stunning Strike", "description": "Once per turn when hitting with Monk weapon/Unarmed Strike, can expend 1 Focus Point. Target makes Con save. Fail: Stunned until start of your next turn. Success: Speed halved, next attack roll vs target has Advantage."}
+    ],
+    "6": [
+      {"id": "monk_empowered_strikes_2024", "name": "Empowered Strikes", "description": "Unarmed Strikes can deal Force damage or its normal damage type."},
+      {"id": "monk_subclass_feature_6_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "7": [
+      {"id": "monk_evasion_2024", "name": "Evasion", "description": "Dex save for half damage -> take no damage on success, half on fail (if not Incapacitated)."}
+    ],
+    "8": [
+      {"id": "monk_asi_8_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "9": [
+      {"id": "monk_acrobatic_movement_2024", "name": "Acrobatic Movement", "description": "While no armor/shield, can move along vertical surfaces and across liquids on turn without falling."}
+    ],
+    "10": [
+      {"id": "monk_heightened_focus_2024", "name": "Heightened Focus", "description": "Flurry of Blows (1 Focus Point for 3 Unarmed Strikes). Patient Defense (1 Focus Point also grants Temp HP = 2x Martial Arts die). Step of the Wind (1 Focus Point also allows moving a willing creature within 5ft with you)."},
+      {"id": "monk_self_restoration_2024", "name": "Self-Restoration", "description": "End Charmed, Frightened, or Poisoned condition on self at end of each turn. Forgoing food/drink doesn’t cause Exhaustion."}
+    ],
+    "11": [
+      {"id": "monk_subclass_feature_11_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "12": [
+      {"id": "monk_asi_12_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "13": [
+      {"id": "monk_deflect_energy_2024", "name": "Deflect Energy", "description": "Deflect Attacks feature now works against attacks dealing any damage type."}
+    ],
+    "14": [
+      {"id": "monk_disciplined_survivor_2024", "name": "Disciplined Survivor", "description": "Gain proficiency in all saving throws. If fail a save, can expend 1 Focus Point to reroll (must use new roll)."}
+    ],
+    "15": [
+      {"id": "monk_perfect_focus_2024", "name": "Perfect Focus", "description": "When rolling Initiative (and not using Uncanny Metabolism), regain Focus Points up to 4 if you have 3 or fewer."}
+    ],
+    "16": [
+      {"id": "monk_asi_16_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "17": [
+      {"id": "monk_subclass_feature_17_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "18": [
+      {"id": "monk_superior_defense_2024", "name": "Superior Defense", "description": "At start of turn, can expend 3 Focus Points for 1 min Resistance to all damage except Force (or until Incapacitated)."}
+    ],
+    "19": [
+      {"id": "monk_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of Irresistible Offense recommended)."}
+    ],
+    "20": [
+      {"id": "monk_body_and_mind_2024", "name": "Body and Mind", "description": "Dexterity and Wisdom scores increase by 4 (max 25)."}
+    ]
+  },
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Martial Arts", "Focus Points", "Unarmored Movement"],
+  "source": "D&D Beyond Basic Rules 2024 - Monk Class",
+  "subclasses": [
+    {
+      "id": "warrior_of_the_open_hand_2024",
+      "name": "Warrior of the Open Hand",
+      "path_to_file": "data/classes/monk/subclasses/warrior_of_the_open_hand.json"
+    },
+    {
+      "id": "warrior_of_the_elements_2024",
+      "name": "Warrior of the Elements",
+      "path_to_file": "data/classes/monk/subclasses/warrior_of_the_elements.json"
+    },
+    {
+      "id": "warrior_of_mercy_2024",
+      "name": "Warrior of Mercy",
+      "path_to_file": "data/classes/monk/subclasses/warrior_of_mercy.json"
+    },
+    {
+      "id": "warrior_of_shadow_2024",
+      "name": "Warrior of Shadow",
+      "path_to_file": "data/classes/monk/subclasses/warrior_of_shadow.json"
+    }
+  ]
+}

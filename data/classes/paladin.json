@@ -1,0 +1,151 @@
+{
+  "id": "paladin_2024",
+  "name": "Paladin (2024)",
+  "description": "Paladins are united by their oaths to stand against evil, wielding divine magic and martial prowess.",
+  "hit_die": "d10",
+  "primary_ability": ["Strength", "Charisma"],
+  "proficiencies": {
+    "armor": ["Light armor", "Medium armor", "Heavy armor", "Shields"],
+    "weapons": ["Simple weapons", "Martial weapons"],
+    "tools": ["None"],
+    "saving_throws": ["Wisdom", "Charisma"],
+    "skills": {
+      "choose": 2,
+      "from": ["Athletics", "Insight", "Intimidation", "Medicine", "Persuasion", "Religion"]
+    }
+  },
+  "starting_equipment_options": [
+    "(A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest’s Pack, and 9 GP",
+    "(B) 150 GP"
+  ],
+  "spellcasting_ability": "Charisma",
+  "spell_slots_and_prepared_spells_progression_note": "Refer to Paladin Features table in source for Prepared Spells and Spell Slots per Level.",
+  "features_by_level": {
+    "1": [
+      {"id": "paladin_lay_on_hands_2024", "name": "Lay on Hands", "description": "Pool of healing power = 5x Paladin level. Bonus Action to touch and restore HP from pool. Can expend 5 HP from pool to cure one poison effect instead of healing."},
+      {"id": "paladin_spellcasting_2024", "name": "Spellcasting", "description": "Access to Paladin spell list, prepare spells. Start with 2 prepared 1st-level spells. Charisma is spellcasting ability. Can use Holy Symbol as focus."},
+      {"id": "paladin_weapon_mastery_1_2024", "name": "Weapon Mastery (Level 1)", "description": "Use mastery properties of 2 kinds of proficient weapons. Change on Long Rest."}
+    ],
+    "2": [
+      {"id": "paladin_fighting_style_2024", "name": "Fighting Style", "description": "Gain a Fighting Style feat or choose Blessed Warrior (learn 2 Cleric cantrips, Cha for spellcasting)."},
+      {"id": "paladin_paladins_smite_2024", "name": "Paladin_s Smite", "description": "Always have Divine Smite spell prepared. Can cast once without expending a spell slot per Long Rest."}
+    ],
+    "3": [
+      {"id": "paladin_channel_divinity_1_2024", "name": "Channel Divinity (2 uses)", "description": "Use Channel Divinity twice (regain 1 on Short Rest, all on Long). Starts with Divine Sense effect. Subclass adds more options."},
+      {"id": "paladin_divine_sense_2024", "name": "Channel Divinity: Divine Sense", "description": "Bonus Action, for 10 min (or until Incapacitated), know location of Celestials, Fiends, Undead within 60ft, and their type. Detect consecrated/desecrated places/objects."},
+      {"id": "paladin_subclass_2024", "name": "Paladin Subclass (Oath)", "description": "Gain a Paladin subclass (Oath). Oath of Devotion detailed in Basic Rules."}
+    ],
+    "4": [
+      {"id": "paladin_asi_4_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "5": [
+      {"id": "paladin_extra_attack_2024", "name": "Extra Attack", "description": "Attack twice when taking Attack action."},
+      {"id": "paladin_faithful_steed_2024", "name": "Faithful Steed", "description": "Always have Find Steed spell prepared. Can cast once without spell slot per Long Rest."}
+    ],
+    "6": [
+      {"id": "paladin_aura_of_protection_2024", "name": "Aura of Protection", "description": "Radiate 10ft protective aura (inactive if Incapacitated). You and allies in aura gain bonus to saving throws = Cha mod (min +1). (Aura Expansion at L18 increases range to 30ft)."}
+    ],
+    "7": [
+      {"id": "paladin_subclass_feature_7_2024", "name": "Subclass Feature (Aura)", "description": "Gain subclass aura feature."}
+    ],
+    "8": [
+      {"id": "paladin_asi_8_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "9": [
+      {"id": "paladin_abjure_foes_2024", "name": "Abjure Foes", "description": "As Magic action, expend Channel Divinity. Target creatures = Cha mod (min 1) within 60ft. Each makes Wis save or Frightened for 1 min (or until damaged). While Frightened, can only move, take an action, OR take a Bonus Action."}
+    ],
+    "10": [
+      {"id": "paladin_aura_of_courage_2024", "name": "Aura of Courage", "description": "You and allies in Aura of Protection immune to Frightened. If Frightened ally enters, condition suppressed while in aura."}
+    ],
+    "11": [
+      {"id": "paladin_radiant_strikes_2024", "name": "Radiant Strikes", "description": "When hitting with Melee weapon/Unarmed Strike, target takes extra 1d8 Radiant damage."},
+      {"id": "paladin_channel_divinity_2_2024", "name": "Channel Divinity (3 uses)", "description": "Channel Divinity uses increase to 3."}
+    ],
+    "12": [
+      {"id": "paladin_asi_12_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "14": [
+      {"id": "paladin_restoring_touch_2024", "name": "Restoring Touch", "description": "When using Lay on Hands, can expend 5 HP from pool to remove Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned condition instead of healing."}
+    ],
+    "15": [
+      {"id": "paladin_subclass_feature_15_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "16": [
+      {"id": "paladin_asi_16_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "18": [
+      {"id": "paladin_aura_expansion_2024", "name": "Aura Expansion", "description": "Aura of Protection range increases to 30 feet."}
+    ],
+    "19": [
+      {"id": "paladin_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of Truesight recommended)."}
+    ],
+    "20": [
+      {"id": "paladin_subclass_feature_20_2024", "name": "Subclass Feature (Capstone)", "description": "Gain subclass capstone feature."}
+    ]
+  },
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Channel Divinity", "Prepared Spells", "1st", "2nd", "3rd", "4th", "5th"],
+  "spell_list": {
+    "level_1": [
+      {"id": "spell_bless", "name": "Bless", "school": "Enchantment"},
+      {"id": "spell_command", "name": "Command", "school": "Enchantment"},
+      {"id": "spell_compelled_duel", "name": "Compelled Duel", "school": "Enchantment"},
+      {"id": "spell_cure_wounds", "name": "Cure Wounds", "school": "Abjuration"},
+      {"id": "spell_detect_evil_and_good", "name": "Detect Evil and Good", "school": "Divination"},
+      {"id": "spell_detect_magic", "name": "Detect Magic", "school": "Divination", "ritual": true},
+      {"id": "spell_detect_poison_and_disease", "name": "Detect Poison and Disease", "school": "Divination", "ritual": true},
+      {"id": "spell_divine_favor", "name": "Divine Favor", "school": "Transmutation"},
+      {"id": "spell_divine_smite", "name": "Divine Smite", "school": "Evocation"},
+      {"id": "spell_heroism", "name": "Heroism", "school": "Enchantment"},
+      {"id": "spell_protection_from_evil_and_good", "name": "Protection from Evil and Good", "school": "Abjuration"},
+      {"id": "spell_purify_food_and_drink", "name": "Purify Food and Drink", "school": "Transmutation", "ritual": true},
+      {"id": "spell_searing_smite", "name": "Searing Smite", "school": "Evocation"},
+      {"id": "spell_shield_of_faith", "name": "Shield of Faith", "school": "Abjuration"},
+      {"id": "spell_thunderous_smite", "name": "Thunderous Smite", "school": "Evocation"},
+      {"id": "spell_wrathful_smite", "name": "Wrathful Smite", "school": "Necromancy"}
+    ],
+    "level_2": [
+      {"id": "spell_aid", "name": "Aid", "school": "Abjuration"},
+      {"id": "spell_find_steed", "name": "Find Steed", "school": "Conjuration"},
+      {"id": "spell_gentle_repose", "name": "Gentle Repose", "school": "Necromancy", "ritual": true},
+      {"id": "spell_lesser_restoration", "name": "Lesser Restoration", "school": "Abjuration"},
+      {"id": "spell_locate_object", "name": "Locate Object", "school": "Divination"},
+      {"id": "spell_magic_weapon", "name": "Magic Weapon", "school": "Transmutation"},
+      {"id": "spell_prayer_of_healing", "name": "Prayer of Healing", "school": "Abjuration"},
+      {"id": "spell_protection_from_poison", "name": "Protection from Poison", "school": "Abjuration"},
+      {"id": "spell_shining_smite", "name": "Shining Smite", "school": "Transmutation"},
+      {"id": "spell_warding_bond", "name": "Warding Bond", "school": "Abjuration"},
+      {"id": "spell_zone_of_truth", "name": "Zone of Truth", "school": "Enchantment"}
+    ],
+    "level_3": [
+      {"id": "spell_aura_of_vitality", "name": "Aura of Vitality", "school": "Abjuration"},
+      {"id": "spell_blinding_smite", "name": "Blinding Smite", "school": "Evocation"},
+      {"id": "spell_create_food_and_water", "name": "Create Food and Water", "school": "Conjuration"},
+      {"id": "spell_crusaders_mantle", "name": "Crusader_s Mantle", "school": "Transmutation"},
+      {"id": "spell_daylight", "name": "Daylight", "school": "Evocation"},
+      {"id": "spell_dispel_magic", "name": "Dispel Magic", "school": "Abjuration"},
+      {"id": "spell_elemental_weapon", "name": "Elemental Weapon", "school": "Transmutation"},
+      {"id": "spell_magic_circle", "name": "Magic Circle", "school": "Abjuration"},
+      {"id": "spell_remove_curse", "name": "Remove Curse", "school": "Abjuration"},
+      {"id": "spell_revivify", "name": "Revivify", "school": "Necromancy"}
+    ],
+    "level_4": [
+      {"id": "spell_aura_of_life", "name": "Aura of Life", "school": "Abjuration"},
+      {"id": "spell_aura_of_purity", "name": "Aura of Purity", "school": "Abjuration"},
+      {"id": "spell_banishment", "name": "Banishment", "school": "Abjuration"},
+      {"id": "spell_death_ward", "name": "Death Ward", "school": "Abjuration"},
+      {"id": "spell_locate_creature", "name": "Locate Creature", "school": "Divination"},
+      {"id": "spell_staggering_smite", "name": "Staggering Smite", "school": "Enchantment"}
+    ],
+    "level_5": [
+      {"id": "spell_banishing_smite", "name": "Banishing Smite", "school": "Conjuration"},
+      {"id": "spell_circle_of_power", "name": "Circle of Power", "school": "Abjuration"},
+      {"id": "spell_destructive_wave", "name": "Destructive Wave", "school": "Evocation"},
+      {"id": "spell_dispel_evil_and_good", "name": "Dispel Evil and Good", "school": "Abjuration"},
+      {"id": "spell_geas", "name": "Geas", "school": "Enchantment"},
+      {"id": "spell_greater_restoration", "name": "Greater Restoration", "school": "Abjuration"},
+      {"id": "spell_raise_dead", "name": "Raise Dead", "school": "Necromancy"},
+      {"id": "spell_summon_celestial", "name": "Summon Celestial", "school": "Conjuration"}
+    ]
+  },
+  "source": "D&D Beyond Basic Rules 2024 - Paladin Class"
+}

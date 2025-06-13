@@ -1,0 +1,42 @@
+{
+  "id": "warrior_of_the_elements_2024",
+  "name": "Warrior of the Elements (Monk Subclass - 2024)",
+  "class_id": "monk_2024",
+  "description": "Warrior of the Elements Monks punch with elemental fury, gaining reach, elemental damage types, area attacks, and eventually flight and resistances.",
+  "source": "RPGBOT 2024 Warrior of the Elements Monk Subclass Guide (PHB)",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "elements_elemental_attunement_2024",
+        "name": "Elemental Attunement",
+        "description": "For 1 Focus Point (free action at start of turn), for 10 minutes: Unarmed strikes gain +10ft reach. Unarmed strikes can deal acid, cold, fire, lightning, or thunder damage (chosen per attack). When dealing elemental damage with an unarmed strike, can push or pull target 10ft."
+      },
+      {
+        "id": "elements_manipulate_elements_2024",
+        "name": "Manipulate Elements",
+        "description": "You learn the Elementalism cantrip."
+      }
+    ],
+    "6": [
+      {
+        "id": "elements_elemental_burst_2024",
+        "name": "Elemental Burst",
+        "description": "As an action, spend 2 Focus Points. Creatures in a 20-foot radius sphere centered on you make a Dex save (vs. your Monk save DC). Take damage equal to three rolls of your Martial Arts die on a failed save, or half on success. Damage type is your choice from Elemental Strikes list (acid, cold, fire, lightning, or thunder)."
+      }
+    ],
+    "11": [
+      {
+        "id": "elements_stride_of_the_elements_2024",
+        "name": "Stride of the Elements",
+        "description": "While your Elemental Attunement is active, you gain a flying speed equal to your Unarmored Movement bonus."
+      }
+    ],
+    "17": [
+      {
+        "id": "elements_elemental_epitome_2024",
+        "name": "Elemental Epitome",
+        "description": "While Elemental Attunement is active: Gain Resistance to one type from Elemental Strikes (chosen at start of each turn, lasts till start of next). Destructive Stride: When using Step of the Wind, each creature you move adjacent to takes elemental damage (your choice) = one Martial Arts die roll. Empowered Strikes: Once per turn, when hitting with an elemental unarmed strike, add one Martial Arts die to damage."
+      }
+    ]
+  }
+}

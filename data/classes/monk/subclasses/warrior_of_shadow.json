@@ -1,0 +1,37 @@
+{
+  "id": "warrior_of_shadow_2024",
+  "name": "Warrior of Shadow (Monk Subclass - 2024)",
+  "class_id": "monk_2024",
+  "description": "Warrior of Shadow Monks use magical darkness and teleportation to strike unseen and control the battlefield.",
+  "source": "RPGBOT 2024 Monk Subclasses Guide (PHB)",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "shadow_shadow_arts_2024",
+        "name": "Shadow Arts",
+        "description": "You gain Darkvision out to 60 feet (or increase existing Darkvision by 60 feet). You also learn the Minor Illusion cantrip if you don_t already know it. Additionally, as an action, you can spend 1 Focus Point to cast Darkness, Pass without Trace, or Silence, without providing material components. You can see in magical darkness you create with this feature."
+      }
+    ],
+    "6": [
+      {
+        "id": "shadow_shadow_step_2024",
+        "name": "Shadow Step",
+        "description": "When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can also see that is in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
+      }
+    ],
+    "11": [
+      {
+        "id": "shadow_improved_shadow_step_2024",
+        "name": "Improved Shadow Step",
+        "description": "When a creature ends its turn within 5 feet of you while you are in dim light or darkness, you can use your reaction to expend 1 Focus Point to use Shadow Step, and you can make one unarmed strike against that creature before or after you teleport."
+      }
+    ],
+    "17": [
+      {
+        "id": "shadow_cloak_of_shadows_2024",
+        "name": "Cloak of Shadows",
+        "description": "As an action, you can spend 3 Focus Points to become invisible for 1 minute while you are in an area of dim light or darkness. This invisibility ends if you make an attack, cast a spell, or are in an area of bright light. While invisible this way, your Flurry of Blows costs 0 Focus Points."
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "oath_of_devotion_2024",
+  "name": "Oath of Devotion (Paladin Subclass - 2024)",
+  "class_id": "paladin_2024",
+  "description": "The Oath of Devotion binds Paladins to the ideals of justice, virtue, and order, holding themselves to the highest standards of conduct.",
+  "source": "D&D Beyond Basic Rules 2024 - Paladin Class",
+  "tenets": [
+    "Let your word be your promise.",
+    "Protect the weak and never fear to act.",
+    "Let your honorable deeds be an example."
+  ],
+  "oath_spells_note": "Oath of Devotion Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "devotion_oath_spells_3_2024",
+        "name": "Oath of Devotion Spells (Level 3)",
+        "description": "Always have Protection from Evil and Good, Shield of Faith prepared."
+      },
+      {
+        "id": "devotion_channel_divinity_sacred_weapon_2024",
+        "name": "Channel Divinity: Sacred Weapon",
+        "description": "When you take the Attack action, you can expend one use of Channel Divinity to imbue one Melee weapon you hold with positive energy. For 10 min (or until reused/not carried): add Cha mod to attack rolls with it (min +1); deals normal damage or Radiant. Weapon emits bright light 20ft, dim light 20ft beyond. Can end early (no action)."
+      }
+    ],
+    "5": [
+      {
+        "id": "devotion_oath_spells_5_2024",
+        "name": "Oath of Devotion Spells (Level 5)",
+        "description": "Always have Aid, Zone of Truth prepared."
+      }
+    ],
+    "7": [
+      {
+        "id": "devotion_aura_of_devotion_2024",
+        "name": "Aura of Devotion",
+        "description": "You and allies in your Aura of Protection have Immunity to the Charmed condition. If a Charmed ally enters the aura, the condition has no effect on that ally while there."
+      }
+    ],
+    "9": [
+      {
+        "id": "devotion_oath_spells_9_2024",
+        "name": "Oath of Devotion Spells (Level 9)",
+        "description": "Always have Beacon of Hope, Dispel Magic prepared."
+      }
+    ],
+    "13": [
+      {
+        "id": "devotion_oath_spells_13_2024",
+        "name": "Oath of Devotion Spells (Level 13)",
+        "description": "Always have Freedom of Movement, Guardian of Faith prepared."
+      }
+    ],
+    "15": [
+      {
+        "id": "devotion_smite_of_protection_2024",
+        "name": "Smite of Protection",
+        "description": "Whenever you cast Divine Smite, you and allies in your Aura of Protection have Half Cover until the start of your next turn."
+      }
+    ],
+    "17": [
+      {
+        "id": "devotion_oath_spells_17_2024",
+        "name": "Oath of Devotion Spells (Level 17)",
+        "description": "Always have Commune, Flame Strike prepared."
+      }
+    ],
+    "20": [
+      {
+        "id": "devotion_holy_nimbus_2024",
+        "name": "Holy Nimbus",
+        "description": "As a Bonus Action, imbue Aura of Protection with holy power for 10 min (or until dismissed). Benefits: Holy Ward (Adv. on saves vs Fiends/Undead), Radiant Damage (enemies starting turn in aura take Cha mod + Prof Bonus radiant damage), Sunlight (aura is bright sunlight). Once per Long Rest, or expend L5 spell slot to restore use."
+      }
+    ]
+  }
+}

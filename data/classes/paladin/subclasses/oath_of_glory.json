@@ -1,0 +1,75 @@
+{
+  "id": "oath_of_glory_2024",
+  "name": "Oath of Glory (Paladin Subclass - 2024)",
+  "class_id": "paladin_2024",
+  "description": "Paladins who take the Oath of Glory are driven by a desire for renown and heroic deeds, inspiring allies and performing legendary feats.",
+  "source": "RPGBOT 2024 Paladin Subclasses Guide (PHB)",
+  "tenets": [
+    "Actions over words.",
+    "Challenges are but tests.",
+    "Hone the body.",
+    "Discipline the soul."
+  ],
+  "oath_spells_note": "Oath of Glory Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "glory_oath_spells_3_2024",
+        "name": "Oath of Glory Spells (Level 3)",
+        "description": "Always have Guiding Bolt, Heroism prepared."
+      },
+      {
+        "id": "glory_channel_divinity_inspiring_smite_2024",
+        "name": "Channel Divinity: Inspiring Smite",
+        "description": "Immediately after you deal damage to a creature with your Divine Smite feature, you can use your Channel Divinity as a bonus action to grant temporary hit points to yourself and friendly creatures of your choice within 30 feet of you. The total number of temporary hit points equals 2d8 + your paladin level, divided equally among the chosen creatures."
+      },
+      {
+        "id": "glory_peerless_athlete_2024",
+        "name": "Peerless Athlete",
+        "description": "You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks. Your jump distance is doubled."
+      }
+    ],
+    "5": [
+      {
+        "id": "glory_oath_spells_5_2024",
+        "name": "Oath of Glory Spells (Level 5)",
+        "description": "Always have Enhance Ability, Magic Weapon prepared."
+      }
+    ],
+    "7": [
+      {
+        "id": "glory_aura_of_alacrity_2024",
+        "name": "Aura of Alacrity",
+        "description": "Your walking speed and the walking speed of any allies within 10 feet of you increases by 10 feet. At 18th level, the range of this aura increases to 30 feet."
+      },
+      {
+        "id": "glory_oath_spells_7_2024",
+        "name": "Oath of Glory Spells (Level 7)",
+        "description": "Always have Haste, Protection from Energy prepared."
+      }
+    ],
+    "9": [
+       {"id": "glory_oath_spells_9_2024", "name": "Oath of Glory Spells (Level 9)", "description": "Always have Compulsion, Freedom of Movement prepared."}
+    ],
+    "13": [
+      {"id": "glory_oath_spells_13_2024", "name": "Oath of Glory Spells (Level 13)", "description": "Always have Commune, Flame Strike prepared. (Note: RPGBOT lists Flame Strike, DDB Basic Rules lists this for Devotion. Using RPGBOT for this entry.)"}
+    ],
+    "15": [
+      {
+        "id": "glory_glorious_defense_2024",
+        "name": "Glorious Defense",
+        "description": "When you or an allied creature within 10 feet of you is hit by an attack roll, you can use your reaction to add your Charisma modifier to the target_s AC against that attack. If the attack still hits, the target has resistance to the attack_s damage. If the attack misses, you can make one weapon attack against the attacker as part of the same reaction, provided the attacker is within your weapon_s range."
+      }
+    ],
+    "17": [
+       {"id": "glory_oath_spells_17_2024", "name": "Oath of Glory Spells (Level 17)", "description": "Always have Legend Lore, Hold Monster prepared. (Note: RPGBOT lists Hold Monster, DDB Basic Rules has Yolande_s Regal Presence for Devotion. Using RPGBOT for this entry.)"}
+    ],
+    "20": [
+      {
+        "id": "glory_living_legend_2024",
+        "name": "Living Legend",
+        "description": "As a bonus action, you can gain the following benefits for 10 minutes: You have advantage on Charisma checks. Once on each of your turns when you miss with an attack roll, you can choose to hit instead. If an ally within your Aura of Alacrity is forced to make a saving throw, they can use their reaction to reroll the save and add your Charisma modifier to the new roll. Once you use this bonus action, you can_t use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again."
+      }
+    ]
+  }
+}

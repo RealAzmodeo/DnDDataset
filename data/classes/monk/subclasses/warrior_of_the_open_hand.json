@@ -1,0 +1,37 @@
+{
+  "id": "warrior_of_the_open_hand_2024",
+  "name": "Warrior of the Open Hand (Monk Subclass - 2024)",
+  "class_id": "monk_2024",
+  "description": "Warriors of the Open Hand are masters of unarmed combat, learning techniques to push, trip, and manipulate their own energy to protect themselves.",
+  "source": "D&D Beyond Basic Rules 2024 - Monk Class",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "open_hand_technique_2024",
+        "name": "Open Hand Technique",
+        "description": "Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target: Addle (target can_t make Opportunity Attacks until start of its next turn), Push (target makes Str save or is pushed up to 15 feet away), or Topple (target makes Dex save or has Prone condition)."
+      }
+    ],
+    "6": [
+      {
+        "id": "open_hand_wholeness_of_body_2024",
+        "name": "Wholeness of Body",
+        "description": "As a Bonus Action, roll Martial Arts die. Regain HP = roll + Wisdom modifier (min 1). Usable Wis mod times (min 1) per Long Rest."
+      }
+    ],
+    "11": [
+      {
+        "id": "open_hand_fleet_step_2024",
+        "name": "Fleet Step",
+        "description": "When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action."
+      }
+    ],
+    "17": [
+      {
+        "id": "open_hand_quivering_palm_2024",
+        "name": "Quivering Palm",
+        "description": "When you hit a creature with an Unarmed Strike, can expend 4 Focus Points to start imperceptible vibrations lasting days = Monk level. Vibrations are harmless unless you use an action (or forgo one Attack action attack) to end them (target must be on same plane). Target makes Con save, taking 10d12 Force damage on fail (half on success). Only one creature can be affected at a time. Can end vibrations harmlessly (no action)."
+      }
+    ]
+  }
+}

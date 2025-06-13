@@ -233,5 +233,27 @@
         {"id": "spell_true_resurrection", "name": "True Resurrection", "school": "Necromancy"}
     ]
   },
-  "source": "D&D Beyond Basic Rules 2024 - Druid Class"
+  "source": "D&D Beyond Basic Rules 2024 - Druid Class",
+  "subclasses": [
+    {
+      "id": "circle_of_the_land_2024",
+      "name": "Circle of the Land",
+      "path_to_file": "data/classes/druid/subclasses/circle_of_the_land.json"
+    },
+    {
+      "id": "circle_of_the_moon_2024",
+      "name": "Circle of the Moon",
+      "path_to_file": "data/classes/druid/subclasses/circle_of_the_moon.json"
+    },
+    {
+      "id": "circle_of_the_sea_2024",
+      "name": "Circle of the Sea",
+      "path_to_file": "data/classes/druid/subclasses/circle_of_the_sea.json"
+    },
+    {
+      "id": "circle_of_the_stars_2024",
+      "name": "Circle of the Stars",
+      "path_to_file": "data/classes/druid/subclasses/circle_of_the_stars.json"
+    }
+  ]
 }

@@ -1,0 +1,47 @@
+{
+  "id": "warrior_of_mercy_2024",
+  "name": "Warrior of Mercy (Monk Subclass - 2024)",
+  "class_id": "monk_2024",
+  "description": "Warrior of Mercy Monks use their ki to heal allies and harm foes, balancing life and death.",
+  "source": "RPGBOT 2024 Monk Subclasses Guide (PHB)",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "mercy_hand_of_harm_2024",
+        "name": "Hand of Harm",
+        "description": "When you hit a creature with an unarmed strike, you can spend 1 Focus Point to deal extra necrotic damage equal to one roll of your Martial Arts die + your Wisdom modifier. You can use this only once per turn."
+      },
+      {
+        "id": "mercy_hand_of_healing_2024",
+        "name": "Hand of Healing",
+        "description": "As an action, you can spend 1 Focus Point to touch a creature and restore a number of hit points equal to one roll of your Martial Arts die + your Wisdom modifier. Alternatively, when you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending a Focus Point for the healing."
+      },
+      {
+        "id": "mercy_implements_of_mercy_2024",
+        "name": "Implements of Mercy",
+        "description": "You gain proficiency in the Insight and Medicine skills, and with the herbalism kit."
+      }
+    ],
+    "6": [
+      {
+        "id": "mercy_physicians_touch_2024",
+        "name": "Physician_s Touch",
+        "description": "Your Hand of Harm now also causes the target to have the Poisoned condition until the end of your next turn (no save). Your Hand of Healing can now also end one disease or one of the following conditions affecting the target: blinded, deafened, paralyzed, poisoned, or stunned."
+      }
+    ],
+    "11": [
+      {
+        "id": "mercy_flurry_of_healing_and_harm_2024",
+        "name": "Flurry of Healing and Harm",
+        "description": "When you use Flurry of Blows, you can now use Hand of Harm with one of the strikes without spending the Focus Point for Hand of Harm. In addition, you can replace any number of the unarmed strikes in a Flurry of Blows with uses of Hand of Healing, without spending Focus Points for those Hand of Healing uses."
+      }
+    ],
+    "17": [
+      {
+        "id": "mercy_hand_of_ultimate_mercy_2024",
+        "name": "Hand of Ultimate Mercy",
+        "description": "As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 Focus Points. The creature returns to life with 1 hit point. This feature can’t return to life a creature that has died of old age, nor can it restore any missing body parts. You can use this feature once per long rest."
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "psi_warrior_2024",
+  "name": "Psi Warrior (Fighter Subclass - 2024)",
+  "class_id": "fighter_2024",
+  "description": "The Psi Warrior Fighter uses psionic power to enhance their martial abilities, offering a mix of offensive, defensive, and utility options.",
+  "source": "RPGBOT 2024 Psi Warrior Guide (derived from 2024 rules)",
+  "psionic_energy_dice": {
+    "dice_by_level": {
+      "3": "4d6", "4": "4d6", "5": "6d8", "6": "6d8", "7": "6d8", "8": "6d8", "9": "8d8", "10": "8d8",
+      "11": "8d10", "12": "8d10", "13": "10d10", "14": "10d10", "15": "10d10", "16": "10d10",
+      "17": "12d12", "18": "12d12", "19": "12d12", "20": "12d12"
+    },
+    "recharge": "Regain one die per Short Rest, all on Long Rest."
+  },
+  "features_by_level": {
+    "3": [
+      {
+        "id": "psi_warrior_psionic_power_2024",
+        "name": "Psionic Power",
+        "description": "You harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, the number and size of which are determined by your fighter level. You have a number of these dice equal to twice your proficiency bonus, and they start as d6s. They become d8s at 5th level, d10s at 11th level, and d12s at 17th level. You can spend these dice to fuel various psionic features. You regain one expended Psionic Energy die when you finish a short rest, and all expended Psionic Energy dice when you finish a long rest. You start with three features that spend these dice: Protective Field, Psionic Strike, and Telekinetic Movement."
+      },
+      {
+        "id": "psi_warrior_protective_field_2024",
+        "name": "Protective Field",
+        "description": "When you or another creature you can see within 30 feet of you takes damage, you can use your reaction to expend one Psionic Energy die and reduce that damage by the number rolled on the die plus your Intelligence modifier."
+      },
+      {
+        "id": "psi_warrior_psionic_strike_2024",
+        "name": "Psionic Strike",
+        "description": "Once on each of your turns, when you hit a target with a weapon attack, you can expend one Psionic Energy die and deal additional force damage to the target equal to the number rolled on the die plus your Intelligence modifier."
+      },
+      {
+        "id": "psi_warrior_telekinetic_movement_2024",
+        "name": "Telekinetic Movement",
+        "description": "As an action, you can move one loose object that is Large or smaller or one willing creature, other than yourself, up to 30 feet to an unoccupied space you can see. If the target is an object, you can move it horizontally, vertically, or both. You can use this feature once per short or long rest without expending a Psionic Energy die, or you can expend one Psionic Energy die to use it again."
+      }
+    ],
+    "7": [
+      {
+        "id": "psi_warrior_telekinetic_adept_2024",
+        "name": "Telekinetic Adept",
+        "description": "You gain two new psionic options: Psi-Powered Leap and Telekinetic Thrust."
+      },
+      {
+        "id": "psi_warrior_psi_powered_leap_2024",
+        "name": "Psi-Powered Leap",
+        "description": "As a bonus action, you can propel your body with your mind. You gain a flying speed equal to twice your walking speed until the end of the current turn. You can use this feature once per short or long rest without expending a Psionic Energy die, or you can expend one Psionic Energy die to use it again."
+      },
+      {
+        "id": "psi_warrior_telekinetic_thrust_2024",
+        "name": "Telekinetic Thrust",
+        "description": "When you deal damage to a target with your Psionic Strike, you can force that target to make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. On a failed save, you can knock the target prone or move it up to 10 feet in any horizontal direction."
+      }
+    ],
+    "10": [
+      {
+        "id": "psi_warrior_guarded_mind_2024",
+        "name": "Guarded Mind",
+        "description": "You gain resistance to psychic damage. Also, as an action, you can expend one Psionic Energy die to end either the charmed or frightened condition on yourself or one willing creature you can see within 30 feet of you."
+      }
+    ],
+    "15": [
+      {
+        "id": "psi_warrior_bulwark_of_force_2024",
+        "name": "Bulwark of Force",
+        "description": "As a bonus action, you can expend one Psionic Energy die to choose a number of creatures up to your Intelligence modifier (minimum of one) within 30 feet of you (can include yourself). Each chosen creature is protected by a telekinetic force, gaining half cover for 1 minute or until you are incapacitated. You can use this feature once per long rest, or expend a Psionic Energy die to use it again."
+      }
+    ],
+    "18": [
+      {
+        "id": "psi_warrior_telekinetic_master_2024",
+        "name": "Telekinetic Master",
+        "description": "You learn the Telekinesis spell. You can cast it once without expending a spell slot, and you must finish a long rest before you can do so again. Your spellcasting ability for this spell is Intelligence. While you are concentrating on Telekinesis cast with this feature, you can make one weapon attack as a bonus action."
+      }
+    ]
+  }
+}

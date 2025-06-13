@@ -1,0 +1,70 @@
+{
+  "id": "purple_dragon_knight_2024",
+  "name": "Purple Dragon Knight (Fighter Subclass - 2024)",
+  "class_id": "fighter_2024",
+  "description": "Purple Dragon Knights are paragons of valor and leadership who partner with amethyst dragons, protecting the innocent and rallying allies.",
+  "source": "Dungeons and Dragons Fan - UA Playtest Jan 2025 (for Forgotten Realms Player_s Guide)",
+  "companion_details": {
+    "name": "Purple Dragon Companion",
+    "stat_block_summary": {
+      "size": "Small (becomes Medium at L7, Large at L15)",
+      "type": "Dragon",
+      "alignment": "Neutral",
+      "ac": "13 + Fighter_s Int modifier",
+      "hp": "4 + (4 * Fighter level); Hit Dice (d6s) = Fighter level",
+      "speed": "30 ft., Fly 30 ft. (becomes 40ft at L15), Swim 30 ft.",
+      "senses": "Darkvision 60 ft., Telepathy 30 ft.",
+      "languages": "Understands languages known by knight",
+      "traits": [
+        {"name": "Amphibious", "description": "The dragon can breathe both air and water."},
+        {"name": "Stalwart Bond", "description": "Add half fighter_s Proficiency Bonus (round down) to any ability check or saving throw the dragon makes."}
+      ],
+      "actions": [
+        {"name": "Rend", "description": "Melee Attack: +3 + Fighter_s Int mod to hit, reach 5 ft. Hit: 1d6 + Fighter_s Int mod Force damage."},
+        {"name": "Gravity Breath (2/Day)", "description": "15-foot Cone (becomes 30-foot at L7). Con save (DC 8 + Prof Bonus + Int mod). Fail: Pulled or pushed 15ft (knight_s choice). At L7, also deals 2d6 Force damage on failed save."}
+      ]
+    }
+  },
+  "features_by_level": {
+    "3": [
+      {
+        "id": "pdk_knightly_envoy_2024",
+        "name": "Knightly Envoy",
+        "description": "You learn one language of your choice. Additionally, you can cast Comprehend Languages as a Ritual. Intelligence is your spellcasting ability for it."
+      },
+      {
+        "id": "pdk_purple_dragon_companion_2024",
+        "name": "Purple Dragon Companion",
+        "description": "You bond with an amethyst dragon hatchling that uses the Purple Dragon Companion stat block. It is Friendly and obeys your commands. In combat, it acts on your turn, taking Dodge action unless you use a Bonus Action to command it. If you are Incapacitated, it acts on its own. Can be resurrected with Second Wind (if died within 1 hour) or a 1-hour ceremony."
+      }
+    ],
+    "7": [
+      {
+        "id": "pdk_dragon_rider_2024",
+        "name": "Dragon Rider",
+        "description": "Dragon grows to Medium. Can be used as a mount (if knight is Medium/smaller; dragon falls if airborne only by Fly speed at end of turn while mounted). Mount/dismount is 5ft movement. Gravity Breath becomes 30-ft cone and deals 2d6 Force damage on failed save. When knight uses Second Wind, dragon regains 1d6 + Fighter level HP and one use of Gravity Breath."
+      }
+    ],
+    "10": [
+      {
+        "id": "pdk_rallying_surge_2024",
+        "name": "Rallying Surge",
+        "description": "When you use Action Surge, choose up to three allies within 30ft. Each can use Reaction to make one weapon/unarmed attack (dragon can make Rend attack) OR move up to half speed without provoking opportunity attacks."
+      }
+    ],
+    "15": [
+      {
+        "id": "pdk_amethyst_pinnacle_2024",
+        "name": "Amethyst Pinnacle",
+        "description": "Dragon grows to Large. Speed and Fly Speed increase to 40ft. Dragon no longer falls if airborne while mounted. When knight takes Attack action, can forgo one attack for dragon to Rend, OR forgo two attacks for dragon to use Gravity Breath."
+      }
+    ],
+    "18": [
+      {
+        "id": "pdk_enduring_commander_2024",
+        "name": "Enduring Commander",
+        "description": "You and your purple dragon have Resistance to Force and Psychic damage."
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "eldritch_knight_2024",
+  "name": "Eldritch Knight (Fighter Subclass - 2024)",
+  "class_id": "fighter_2024",
+  "description": "Eldritch Knights blend the martial mastery of a fighter with the arcane power of a wizard, using spells to enhance their combat abilities and protect themselves and their allies.",
+  "source": "RPGBOT 2024 Eldritch Knight Guide (derived from 2024 rules)",
+  "spellcasting_details": {
+    "spellcasting_ability": "Intelligence",
+    "spell_list": "Wizard",
+    "progression": "1/3 caster",
+    "preparation_type": "spells_known",
+    "cantrips_known_at_level_3": 2,
+    "spells_known_table": {
+      "3": 3, "4": 4, "5": 4, "6": 4, "7": 5, "8": 6, "9": 6, "10": 7, "11": 8, "12": 8,
+      "13": 9, "14": 10, "15": 10, "16": 11, "17": 11, "18": 11, "19": 12, "20": 13
+    },
+    "spell_slots_per_level": {
+      "3": {"1st": 2},
+      "4": {"1st": 3},
+      "5": {"1st": 3},
+      "6": {"1st": 3},
+      "7": {"1st": 4, "2nd": 2},
+      "8": {"1st": 4, "2nd": 2},
+      "9": {"1st": 4, "2nd": 2},
+      "10": {"1st": 4, "2nd": 3},
+      "11": {"1st": 4, "2nd": 3},
+      "12": {"1st": 4, "2nd": 3},
+      "13": {"1st": 4, "2nd": 3, "3rd": 2},
+      "14": {"1st": 4, "2nd": 3, "3rd": 2},
+      "15": {"1st": 4, "2nd": 3, "3rd": 2},
+      "16": {"1st": 4, "2nd": 3, "3rd": 3},
+      "17": {"1st": 4, "2nd": 3, "3rd": 3},
+      "18": {"1st": 4, "2nd": 3, "3rd": 3},
+      "19": {"1st": 4, "2nd": 3, "3rd": 3, "4th": 1},
+      "20": {"1st": 4, "2nd": 3, "3rd": 3, "4th": 1}
+    },
+    "school_restrictions": "Most spells learned must be from Abjuration or Evocation schools. Spells learned at 8th, 14th, and 20th level can be from any school."
+  },
+  "features_by_level": {
+    "3": [
+      {
+        "id": "eldritch_knight_spellcasting_2024",
+        "name": "Spellcasting",
+        "description": "You gain the ability to cast wizard spells. You know two cantrips and three 1st-level spells from the wizard spell list (most must be abjuration or evocation). Intelligence is your spellcasting ability."
+      },
+      {
+        "id": "eldritch_knight_weapon_bond_2024",
+        "name": "Weapon Bond",
+        "description": "As a bonus action, you can magically bond with one weapon you are holding. You can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action, causing it to teleport instantly to your hand. You can have up to two bonded weapons, but can only summon one at a time. Bond lasts until you die or use a 1-hour ritual to break it."
+      }
+    ],
+    "7": [
+      {
+        "id": "eldritch_knight_war_magic_2024",
+        "name": "War Magic",
+        "description": "When you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
+      }
+    ],
+    "10": [
+      {
+        "id": "eldritch_knight_eldritch_strike_2024",
+        "name": "Eldritch Strike",
+        "description": "When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+      }
+    ],
+    "15": [
+      {
+        "id": "eldritch_knight_arcane_charge_2024",
+        "name": "Arcane Charge",
+        "description": "When you use your Action Surge, you can teleport up to 30 feet to an unoccupied space you can see before or after the additional action. You can teleport only once per Action Surge."
+      }
+    ],
+    "18": [
+      {
+        "id": "eldritch_knight_improved_war_magic_2024",
+        "name": "Improved War Magic",
+        "description": "When you use your action to cast a spell, you can make one weapon attack as a bonus action."
+      }
+    ]
+  }
+}

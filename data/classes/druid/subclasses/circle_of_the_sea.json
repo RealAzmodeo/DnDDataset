@@ -1,0 +1,52 @@
+{
+  "id": "circle_of_the_sea_2024",
+  "name": "Circle of the Sea (Druid Subclass - 2024)",
+  "class_id": "druid_2024",
+  "description": "Druids of the Circle of the Sea command the power of tides and storms, often fighting at close range with elemental fury.",
+  "source": "RPGBOT 2024 Circle of the Sea Druid Subclass Guide (PHB)",
+  "domain_spells_note": "Circle of the Sea Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "sea_circle_spells_level_3_2024",
+        "name": "Circle of the Sea Spells (Level 3)",
+        "description": "Always have Ray of Frost (cantrip), Create or Destroy Water, Fog Cloud, Gust of Wind, Shatter prepared."
+      },
+      {
+        "id": "sea_wrath_of_the_sea_2024",
+        "name": "Wrath of the Sea",
+        "description": "Bonus Action to activate a 10-foot radius stormy aura for 10 min. Once per turn when you hit a creature in aura with an attack or it fails a save vs your spell, deal extra 1d8 cold damage and push 10ft (Con save vs spell DC to halve/negate push)."
+      }
+    ],
+    "5": [
+       {"id": "sea_circle_spells_level_5_2024", "name": "Circle of the Sea Spells (Level 5)", "description": "Always have Lightning Bolt, Water Breathing prepared."}
+    ],
+    "6": [
+      {
+        "id": "sea_aquatic_affinity_2024",
+        "name": "Aquatic Affinity",
+        "description": "Wrath of the Sea radius increases to 30 feet. Gain a swim speed equal to your walking speed."
+      }
+    ],
+    "7": [
+       {"id": "sea_circle_spells_level_7_2024", "name": "Circle of the Sea Spells (Level 7)", "description": "Always have Control Water, Ice Storm prepared."}
+    ],
+    "9": [
+       {"id": "sea_circle_spells_level_9_2024", "name": "Circle of the Sea Spells (Level 9)", "description": "Always have Cone of Cold, Conjure Elemental prepared."}
+    ],
+    "10": [
+      {
+        "id": "sea_stormborn_2024",
+        "name": "Stormborn",
+        "description": "While Wrath of the Sea is active, gain a flying speed equal to your walking speed and resistance to cold, lightning, and thunder damage."
+      }
+    ],
+    "14": [
+      {
+        "id": "sea_oceanic_gift_2024",
+        "name": "Oceanic Gift",
+        "description": "As an action, expend Wild Shape use to grant benefits of Wrath of the Sea and Stormborn to one willing creature touched for 1 hour."
+      }
+    ]
+  }
+}

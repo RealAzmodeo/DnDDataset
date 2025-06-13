@@ -242,5 +242,17 @@
       {"id": "spell_true_polymorph", "name": "True Polymorph", "school": "Transmutation"}
     ]
   },
-  "source": "D&D Beyond Basic Rules 2024 - Bard Class"
+  "source": "D&D Beyond Basic Rules 2024 - Bard Class",
+  "subclasses": [
+    {
+      "id": "college_of_lore_2024",
+      "name": "College of Lore",
+      "path_to_file": "data/classes/bard/subclasses/college_of_lore.json"
+    },
+    {
+      "id": "college_of_dance_2024",
+      "name": "College of Dance",
+      "path_to_file": "data/classes/bard/subclasses/college_of_dance.json"
+    }
+  ]
 }

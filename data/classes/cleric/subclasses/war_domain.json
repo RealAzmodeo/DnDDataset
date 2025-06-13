@@ -1,0 +1,76 @@
+{
+  "id": "war_domain_2024",
+  "name": "War Domain (Cleric Subclass - 2024)",
+  "class_id": "cleric_2024",
+  "description": "War Domain Clerics are martial chaplains, blending divine magic with combat prowess. They often choose the Protector Divine Order for heavy armor and martial weapon proficiency.",
+  "source": "RPGBOT 2024 Cleric Subclasses Guide (PHB)",
+  "domain_spells_note": "War Domain Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "1": [
+      {
+        "id": "war_domain_spells_level_1_2024",
+        "name": "Domain Spells (Level 1)",
+        "description": "Always have Divine Favor, Shield of Faith prepared."
+      }
+    ],
+    "3": [
+      {
+        "id": "war_domain_channel_divinity_guided_strike_2024",
+        "name": "Channel Divinity: Guided Strike",
+        "description": "When you or another creature within 30 feet of you makes an attack roll, you can use your reaction to expend one use of Channel Divinity to grant a +10 bonus to the roll, after seeing the d20 roll but before knowing if it hits or misses."
+      },
+      {
+        "id": "war_domain_war_priest_2024",
+        "name": "War Priest",
+        "description": "When you use the Attack action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+      },
+      {
+        "id": "war_domain_spells_level_3_2024",
+        "name": "Domain Spells (Level 3)",
+        "description": "Always have Magic Weapon, Spiritual Weapon prepared."
+      }
+    ],
+    "5": [
+      {
+        "id": "war_domain_spells_level_5_2024",
+        "name": "Domain Spells (Level 5)",
+        "description": "Always have Crusader_s Mantle, Spirit Guardians prepared."
+      }
+    ],
+    "6": [
+      {
+        "id": "war_domain_channel_divinity_war_gods_blessing_2024",
+        "name": "Channel Divinity: War God_s Blessing",
+        "description": "When a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+      }
+    ],
+    "7": [
+      {
+        "id": "war_domain_spells_level_7_2024",
+        "name": "Domain Spells (Level 7)",
+        "description": "Always have Freedom of Movement, Stoneskin prepared."
+      }
+    ],
+    "8": [
+      {
+        "id": "war_domain_divine_strike_2024",
+        "name": "Divine Strike (Blessed Strikes Choice)",
+        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8. (This is chosen for the Level 7 Blessed Strikes feature)."
+      }
+    ],
+    "9": [
+      {
+        "id": "war_domain_spells_level_9_2024",
+        "name": "Domain Spells (Level 9)",
+        "description": "Always have Flame Strike, Hold Monster prepared."
+      }
+    ],
+    "17": [
+      {
+        "id": "war_domain_avatar_of_battle_2024",
+        "name": "Avatar of Battle",
+        "description": "You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+      }
+    ]
+  }
+}

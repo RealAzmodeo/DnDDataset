@@ -65,6 +65,21 @@
       "id": "life_domain_2024",
       "name": "Life Domain",
       "path_to_file": "data/classes/cleric/subclasses/life_domain.json"
+    },
+    {
+      "id": "light_domain_2024",
+      "name": "Light Domain",
+      "path_to_file": "data/classes/cleric/subclasses/light_domain.json"
+    },
+    {
+      "id": "trickery_domain_2024",
+      "name": "Trickery Domain",
+      "path_to_file": "data/classes/cleric/subclasses/trickery_domain.json"
+    },
+    {
+      "id": "war_domain_2024",
+      "name": "War Domain",
+      "path_to_file": "data/classes/cleric/subclasses/war_domain.json"
     }
   ]
 }

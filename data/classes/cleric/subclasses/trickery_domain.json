@@ -1,0 +1,76 @@
+{
+  "id": "trickery_domain_2024",
+  "name": "Trickery Domain (Cleric Subclass - 2024)",
+  "class_id": "cleric_2024",
+  "description": "Trickery Domain Clerics serve deities of mischief, deceit, and illusion, using their powers to confuse foes and aid allies in stealth.",
+  "source": "RPGBOT 2024 Cleric Subclasses Guide (PHB)",
+  "domain_spells_note": "Trickery Domain Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "1": [
+      {
+        "id": "trickery_domain_spells_level_1_2024",
+        "name": "Domain Spells (Level 1)",
+        "description": "Always have Charm Person, Disguise Self prepared."
+      }
+    ],
+    "3": [
+      {
+        "id": "trickery_domain_blessing_of_the_trickster_2024",
+        "name": "Blessing of the Trickster",
+        "description": "As an action, touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks for 1 hour or until you use this feature again."
+      },
+      {
+        "id": "trickery_domain_channel_divinity_invoke_duplicity_2024",
+        "name": "Channel Divinity: Invoke Duplicity",
+        "description": "As an action, create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if concentrating on a spell). The illusion appears in an unoccupied space you can see within 30 feet. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you. For the duration, you can cast spells as though you were in the illusion_s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target."
+      },
+      {
+        "id": "trickery_domain_spells_level_3_2024",
+        "name": "Domain Spells (Level 3)",
+        "description": "Always have Mirror Image, Pass without Trace prepared."
+      }
+    ],
+    "5": [
+      {
+        "id": "trickery_domain_spells_level_5_2024",
+        "name": "Domain Spells (Level 5)",
+        "description": "Always have Blink, Dispel Magic prepared."
+      }
+    ],
+    "6": [
+      {
+        "id": "trickery_domain_channel_divinity_cloak_of_shadows_2024",
+        "name": "Channel Divinity: Cloak of Shadows",
+        "description": "As an action, you can use your Channel Divinity to become invisible until the end of your next turn. You become visible if you attack or cast a spell."
+      }
+    ],
+    "7": [
+      {
+        "id": "trickery_domain_spells_level_7_2024",
+        "name": "Domain Spells (Level 7)",
+        "description": "Always have Dimension Door, Polymorph prepared."
+      }
+    ],
+    "8": [
+      {
+        "id": "trickery_domain_divine_strike_2024",
+        "name": "Divine Strike (Blessed Strikes Choice)",
+        "description": "Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8. (This is chosen for the Level 7 Blessed Strikes feature)."
+      }
+    ],
+    "9": [
+      {
+        "id": "trickery_domain_spells_level_9_2024",
+        "name": "Domain Spells (Level 9)",
+        "description": "Always have Dominate Person, Modify Memory prepared."
+      }
+    ],
+    "17": [
+      {
+        "id": "trickery_domain_improved_duplicity_2024",
+        "name": "Improved Duplicity",
+        "description": "You can create up to four duplicates of yourself with Invoke Duplicity, instead of one. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet."
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "druid_2024",
+  "name": "Druid (2024)",
+  "description": "Druids harness the magic of animals, plants, and the four elements to heal, transform, and wield elemental destruction, revering nature above all.",
+  "hit_die": "d8",
+  "primary_ability": ["Wisdom"],
+  "proficiencies": {
+    "armor": ["Light armor", "Shields (druids will not wear armor or use shields made of metal)"],
+    "weapons": ["Simple weapons"],
+    "tools": ["Herbalism Kit"],
+    "saving_throws": ["Intelligence", "Wisdom"],
+    "skills": {
+      "choose": 2,
+      "from": ["Arcana", "Animal Handling", "Insight", "Medicine", "Nature", "Perception", "Religion", "Survival"]
+    }
+  },
+  "starting_equipment_options": [
+    "(A) Leather Armor, Shield, Sickle, Druidic Focus (Quarterstaff), Explorer’s Pack, Herbalism Kit, and 9 GP",
+    "(B) 50 GP"
+  ],
+  "spellcasting_ability": "Wisdom",
+  "spell_slots_and_prepared_spells_progression_note": "Refer to Druid Features table in source for Cantrips Known, Prepared Spells, and Spell Slots per Level.",
+  "wild_shape_progression": {
+    "uses_per_rest": {"2": 2}, "recharge": "Regain 1 on Short Rest, all on Long Rest.",
+    "known_forms_max_cr_fly_speed": {
+      "2": {"known": 4, "max_cr": "1/4", "fly_speed": false},
+      "4": {"known": 6, "max_cr": "1/2", "fly_speed": false},
+      "8": {"known": 8, "max_cr": "1", "fly_speed": true}
+    }
+  },
+  "features_by_level": {
+    "1": [
+      {"id": "druid_spellcasting_2024", "name": "Spellcasting", "description": "Access to Druid spell list, prepare spells. Starts with 2 cantrips and 4 prepared 1st-level spells. Wisdom is spellcasting ability. Can use Druidic Focus."},
+      {"id": "druid_druidic_2024", "name": "Druidic", "description": "Know Druidic language. Always have Speak with Animals prepared. Can use Druidic for hidden messages."},
+      {"id": "druid_primal_order_2024", "name": "Primal Order", "description": "Choose Magician (1 extra Druid cantrip, bonus to Arcana/Nature checks = Wis mod) or Warden (Martial weapon & Medium armor proficiency)."}
+    ],
+    "2": [
+      {"id": "druid_wild_shape_2024", "name": "Wild Shape", "description": "Bonus Action to shape-shift into known Beast form for hours = half Druid level. Uses and known forms/CR progress with level. See wild_shape_progression for details. Retain personality, memories, speech, Humanoid type, HP, Hit Dice, Int/Wis/Cha scores, class features, languages, feats. Use Beast_s stats but own proficiencies/Proficiency Bonus (or Beast_s if higher). No spellcasting in Beast form (concentration maintained). Equipment can merge, drop, or be worn (DM discretion)."},
+      {"id": "druid_wild_companion_2024", "name": "Wild Companion", "description": "As Magic action, expend spell slot or Wild Shape use to cast Find Familiar without material components. Familiar is Fey, disappears on Long Rest."}
+    ],
+    "3": [
+      {"id": "druid_subclass_2024", "name": "Druid Subclass", "description": "Gain a Druid subclass. (Circle of the Land detailed in Basic Rules)."}
+    ],
+    "4": [
+      {"id": "druid_asi_4_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat. Learns 1 additional cantrip."}
+    ],
+    "5": [
+      {"id": "druid_wild_resurgence_2024", "name": "Wild Resurgence", "description": "Once per turn, if no Wild Shape uses left, expend a spell slot to regain one use. Once per Long Rest, expend Wild Shape use to regain a 1st-level spell slot."}
+    ],
+    "6": [
+      {"id": "druid_subclass_feature_6_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "7": [
+      {"id": "druid_elemental_fury_2024", "name": "Elemental Fury", "description": "Choose: Potent Spellcasting (add Wis mod to Druid cantrip damage) OR Primal Strike (once/turn, hit with weapon/Wild Shape attack adds 1d8 Cold, Fire, Lightning, or Thunder damage)."}
+    ],
+    "8": [
+      {"id": "druid_asi_8_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "10": [
+      {"id": "druid_subclass_feature_10_2024", "name": "Subclass Feature", "description": "Gain subclass feature. Learns 1 additional cantrip."}
+    ],
+    "14": [
+      {"id": "druid_subclass_feature_14_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "15": [
+      {"id": "druid_improved_elemental_fury_2024", "name": "Improved Elemental Fury", "description": "Potent Spellcasting: Druid cantrips with range 10ft+ get +300ft range. Primal Strike: Extra damage increases to 2d8."}
+    ],
+    "18": [
+      {"id": "druid_beast_spells_2024", "name": "Beast Spells", "description": "Can cast spells in Beast form (except those with costly/consumed material components)."}
+    ],
+    "19": [
+      {"id": "druid_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of Dimensional Travel recommended)."}
+    ],
+    "20": [
+      {"id": "druid_archdruid_2024", "name": "Archdruid", "description": "Evergreen Wild Shape (regain 1 Wild Shape use on Initiative if none left). Nature Magician (convert Wild Shape uses to spell slot, 2 levels per use, once per Long Rest). Longevity (age 1 year per 10 passed)."}
+    ]
+  },
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Wild Shape", "Cantrips", "Prepared Spells", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th"],
+  "spell_list": {
+    "cantrips": [
+      {"id": "spell_druidcraft", "name": "Druidcraft", "school": "Transmutation"},
+      {"id": "spell_elementalism", "name": "Elementalism", "school": "Transmutation"},
+      {"id": "spell_guidance", "name": "Guidance", "school": "Divination"},
+      {"id": "spell_mending", "name": "Mending", "school": "Transmutation"},
+      {"id": "spell_message", "name": "Message", "school": "Transmutation"},
+      {"id": "spell_poison_spray", "name": "Poison Spray", "school": "Necromancy"},
+      {"id": "spell_produce_flame", "name": "Produce Flame", "school": "Conjuration"},
+      {"id": "spell_resistance", "name": "Resistance", "school": "Abjuration"},
+      {"id": "spell_shillelagh", "name": "Shillelagh", "school": "Transmutation"},
+      {"id": "spell_spare_the_dying", "name": "Spare the Dying", "school": "Necromancy"},
+      {"id": "spell_starry_wisp", "name": "Starry Wisp", "school": "Evocation"},
+      {"id": "spell_thorn_whip", "name": "Thorn Whip", "school": "Transmutation"},
+      {"id": "spell_thunderclap", "name": "Thunderclap", "school": "Evocation"}
+    ],
+    "level_1": [
+      {"id": "spell_animal_friendship", "name": "Animal Friendship", "school": "Enchantment"},
+      {"id": "spell_charm_person", "name": "Charm Person", "school": "Enchantment"},
+      {"id": "spell_create_or_destroy_water", "name": "Create or Destroy Water", "school": "Transmutation"},
+      {"id": "spell_cure_wounds", "name": "Cure Wounds", "school": "Abjuration"},
+      {"id": "spell_detect_magic", "name": "Detect Magic", "school": "Divination", "ritual": true},
+      {"id": "spell_detect_poison_and_disease", "name": "Detect Poison and Disease", "school": "Divination", "ritual": true},
+      {"id": "spell_entangle", "name": "Entangle", "school": "Conjuration"},
+      {"id": "spell_faerie_fire", "name": "Faerie Fire", "school": "Evocation"},
+      {"id": "spell_fog_cloud", "name": "Fog Cloud", "school": "Conjuration"},
+      {"id": "spell_goodberry", "name": "Goodberry", "school": "Conjuration"},
+      {"id": "spell_healing_word", "name": "Healing Word", "school": "Abjuration"},
+      {"id": "spell_ice_knife", "name": "Ice Knife", "school": "Conjuration"},
+      {"id": "spell_jump", "name": "Jump", "school": "Transmutation"},
+      {"id": "spell_longstrider", "name": "Longstrider", "school": "Transmutation"},
+      {"id": "spell_protection_from_evil_and_good", "name": "Protection from Evil and Good", "school": "Abjuration"},
+      {"id": "spell_purify_food_and_drink", "name": "Purify Food and Drink", "school": "Transmutation", "ritual": true},
+      {"id": "spell_speak_with_animals", "name": "Speak with Animals", "school": "Divination", "ritual": true},
+      {"id": "spell_thunderwave", "name": "Thunderwave", "school": "Evocation"}
+    ],
+    "level_2": [
+        {"id": "spell_aid", "name": "Aid", "school": "Abjuration"},
+        {"id": "spell_animal_messenger", "name": "Animal Messenger", "school": "Enchantment", "ritual": true},
+        {"id": "spell_augury", "name": "Augury", "school": "Divination", "ritual": true},
+        {"id": "spell_barkskin", "name": "Barkskin", "school": "Transmutation"},
+        {"id": "spell_beast_sense", "name": "Beast Sense", "school": "Divination", "ritual": true},
+        {"id": "spell_continual_flame", "name": "Continual Flame", "school": "Evocation"},
+        {"id": "spell_darkvision", "name": "Darkvision", "school": "Transmutation"},
+        {"id": "spell_enhance_ability", "name": "Enhance Ability", "school": "Transmutation"},
+        {"id": "spell_enlarge_reduce", "name": "Enlarge/Reduce", "school": "Transmutation"},
+        {"id": "spell_find_traps", "name": "Find Traps", "school": "Divination"},
+        {"id": "spell_flame_blade", "name": "Flame Blade", "school": "Evocation"},
+        {"id": "spell_flaming_sphere", "name": "Flaming Sphere", "school": "Evocation"},
+        {"id": "spell_gust_of_wind", "name": "Gust of Wind", "school": "Evocation"},
+        {"id": "spell_heat_metal", "name": "Heat Metal", "school": "Transmutation"},
+        {"id": "spell_hold_person", "name": "Hold Person", "school": "Enchantment"},
+        {"id": "spell_lesser_restoration", "name": "Lesser Restoration", "school": "Abjuration"},
+        {"id": "spell_locate_animals_or_plants", "name": "Locate Animals or Plants", "school": "Divination", "ritual": true},
+        {"id": "spell_locate_object", "name": "Locate Object", "school": "Divination"},
+        {"id": "spell_moonbeam", "name": "Moonbeam", "school": "Evocation"},
+        {"id": "spell_pass_without_trace", "name": "Pass without Trace", "school": "Abjuration"},
+        {"id": "spell_protection_from_poison", "name": "Protection from Poison", "school": "Abjuration"},
+        {"id": "spell_spike_growth", "name": "Spike Growth", "school": "Transmutation"},
+        {"id": "spell_summon_beast", "name": "Summon Beast", "school": "Conjuration"}
+    ],
+    "level_3": [
+        {"id": "spell_aura_of_vitality", "name": "Aura of Vitality", "school": "Abjuration"},
+        {"id": "spell_call_lightning", "name": "Call Lightning", "school": "Conjuration"},
+        {"id": "spell_conjure_animals", "name": "Conjure Animals", "school": "Conjuration"},
+        {"id": "spell_daylight", "name": "Daylight", "school": "Evocation"},
+        {"id": "spell_dispel_magic", "name": "Dispel Magic", "school": "Abjuration"},
+        {"id": "spell_elemental_weapon", "name": "Elemental Weapon", "school": "Transmutation"},
+        {"id": "spell_feign_death", "name": "Feign Death", "school": "Necromancy", "ritual": true},
+        {"id": "spell_meld_into_stone", "name": "Meld into Stone", "school": "Transmutation", "ritual": true},
+        {"id": "spell_plant_growth", "name": "Plant Growth", "school": "Transmutation"},
+        {"id": "spell_protection_from_energy", "name": "Protection from Energy", "school": "Abjuration"},
+        {"id": "spell_revivify", "name": "Revivify", "school": "Necromancy"},
+        {"id": "spell_sleet_storm", "name": "Sleet Storm", "school": "Conjuration"},
+        {"id": "spell_speak_with_plants", "name": "Speak with Plants", "school": "Transmutation"},
+        {"id": "spell_summon_fey", "name": "Summon Fey", "school": "Conjuration"},
+        {"id": "spell_water_breathing", "name": "Water Breathing", "school": "Transmutation", "ritual": true},
+        {"id": "spell_water_walk", "name": "Water Walk", "school": "Transmutation", "ritual": true},
+        {"id": "spell_wind_wall", "name": "Wind Wall", "school": "Evocation"}
+    ],
+    "level_4": [
+        {"id": "spell_blight", "name": "Blight", "school": "Necromancy"},
+        {"id": "spell_charm_monster", "name": "Charm Monster", "school": "Enchantment"},
+        {"id": "spell_confusion", "name": "Confusion", "school": "Enchantment"},
+        {"id": "spell_conjure_minor_elementals", "name": "Conjure Minor Elementals", "school": "Conjuration"},
+        {"id": "spell_conjure_woodland_beings", "name": "Conjure Woodland Beings", "school": "Conjuration"},
+        {"id": "spell_control_water", "name": "Control Water", "school": "Transmutation"},
+        {"id": "spell_divination", "name": "Divination", "school": "Divination", "ritual": true},
+        {"id": "spell_dominate_beast", "name": "Dominate Beast", "school": "Enchantment"},
+        {"id": "spell_fire_shield", "name": "Fire Shield", "school": "Evocation"},
+        {"id": "spell_fount_of_moonlight", "name": "Fount of Moonlight", "school": "Evocation"},
+        {"id": "spell_freedom_of_movement", "name": "Freedom of Movement", "school": "Abjuration"},
+        {"id": "spell_giant_insect", "name": "Giant Insect", "school": "Conjuration"},
+        {"id": "spell_grasping_vine", "name": "Grasping Vine", "school": "Conjuration"},
+        {"id": "spell_hallucinatory_terrain", "name": "Hallucinatory Terrain", "school": "Illusion"},
+        {"id": "spell_ice_storm", "name": "Ice Storm", "school": "Evocation"},
+        {"id": "spell_locate_creature", "name": "Locate Creature", "school": "Divination"},
+        {"id": "spell_polymorph", "name": "Polymorph", "school": "Transmutation"},
+        {"id": "spell_stone_shape", "name": "Stone Shape", "school": "Transmutation"},
+        {"id": "spell_stoneskin", "name": "Stoneskin", "school": "Transmutation"},
+        {"id": "spell_summon_elemental", "name": "Summon Elemental", "school": "Conjuration"},
+        {"id": "spell_wall_of_fire", "name": "Wall of Fire", "school": "Evocation"}
+    ],
+    "level_5": [
+        {"id": "spell_antilife_shell", "name": "Antilife Shell", "school": "Abjuration"},
+        {"id": "spell_awaken", "name": "Awaken", "school": "Transmutation"},
+        {"id": "spell_commune_with_nature", "name": "Commune with Nature", "school": "Divination", "ritual": true},
+        {"id": "spell_cone_of_cold", "name": "Cone of Cold", "school": "Evocation"},
+        {"id": "spell_conjure_elemental", "name": "Conjure Elemental", "school": "Conjuration"},
+        {"id": "spell_contagion", "name": "Contagion", "school": "Necromancy"},
+        {"id": "spell_geas", "name": "Geas", "school": "Enchantment"},
+        {"id": "spell_greater_restoration", "name": "Greater Restoration", "school": "Abjuration"},
+        {"id": "spell_insect_plague", "name": "Insect Plague", "school": "Conjuration"},
+        {"id": "spell_mass_cure_wounds", "name": "Mass Cure Wounds", "school": "Abjuration"},
+        {"id": "spell_planar_binding", "name": "Planar Binding", "school": "Abjuration"},
+        {"id": "spell_reincarnate", "name": "Reincarnate", "school": "Necromancy"},
+        {"id": "spell_scrying", "name": "Scrying", "school": "Divination"},
+        {"id": "spell_tree_stride", "name": "Tree Stride", "school": "Conjuration"},
+        {"id": "spell_wall_of_stone", "name": "Wall of Stone", "school": "Evocation"}
+    ],
+    "level_6": [
+        {"id": "spell_conjure_fey", "name": "Conjure Fey", "school": "Conjuration"},
+        {"id": "spell_find_the_path", "name": "Find the Path", "school": "Divination"},
+        {"id": "spell_flesh_to_stone", "name": "Flesh to Stone", "school": "Transmutation"},
+        {"id": "spell_heal", "name": "Heal", "school": "Abjuration"},
+        {"id": "spell_heroes_feast", "name": "Heroes_ Feast", "school": "Conjuration"},
+        {"id": "spell_move_earth", "name": "Move Earth", "school": "Transmutation"},
+        {"id": "spell_sunbeam", "name": "Sunbeam", "school": "Evocation"},
+        {"id": "spell_transport_via_plants", "name": "Transport via Plants", "school": "Conjuration"},
+        {"id": "spell_wall_of_thorns", "name": "Wall of Thorns", "school": "Conjuration"},
+        {"id": "spell_wind_walk", "name": "Wind Walk", "school": "Transmutation"}
+    ],
+    "level_7": [
+        {"id": "spell_fire_storm", "name": "Fire Storm", "school": "Evocation"},
+        {"id": "spell_mirage_arcane", "name": "Mirage Arcane", "school": "Illusion"},
+        {"id": "spell_plane_shift", "name": "Plane Shift", "school": "Conjuration"},
+        {"id": "spell_regenerate", "name": "Regenerate", "school": "Transmutation"},
+        {"id": "spell_reverse_gravity", "name": "Reverse Gravity", "school": "Transmutation"},
+        {"id": "spell_symbol", "name": "Symbol", "school": "Abjuration"}
+    ],
+    "level_8": [
+        {"id": "spell_animal_shapes", "name": "Animal Shapes", "school": "Transmutation"},
+        {"id": "spell_antipathy_sympathy", "name": "Antipathy/Sympathy", "school": "Enchantment"},
+        {"id": "spell_befuddlement", "name": "Befuddlement", "school": "Enchantment"},
+        {"id": "spell_control_weather", "name": "Control Weather", "school": "Transmutation"},
+        {"id": "spell_earthquake", "name": "Earthquake", "school": "Transmutation"},
+        {"id": "spell_incendiary_cloud", "name": "Incendiary Cloud", "school": "Conjuration"},
+        {"id": "spell_sunburst", "name": "Sunburst", "school": "Evocation"},
+        {"id": "spell_tsunami", "name": "Tsunami", "school": "Conjuration"}
+    ],
+    "level_9": [
+        {"id": "spell_foresight", "name": "Foresight", "school": "Divination"},
+        {"id": "spell_shapechange", "name": "Shapechange", "school": "Transmutation"},
+        {"id": "spell_storm_of_vengeance", "name": "Storm of Vengeance", "school": "Conjuration"},
+        {"id": "spell_true_resurrection", "name": "True Resurrection", "school": "Necromancy"}
+    ]
+  },
+  "source": "D&D Beyond Basic Rules 2024 - Druid Class"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "circle_of_the_moon_2024",
+  "name": "Circle of the Moon (Druid Subclass - 2024)",
+  "class_id": "druid_2024",
+  "description": "Druids of the Circle of the Moon are masters of Wild Shape, using it to take on more powerful combat forms.",
+  "source": "RPGBOT 2024 Circle of the Moon Druid Subclass Guide (PHB)",
+  "circle_spells_note": "Circle of the Moon Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "moon_circle_forms_2024",
+        "name": "Circle Forms",
+        "description": "Your Wild Shape is enhanced: can use higher CR beasts (see Druid class Wild Shape progression). While in Wild Shape, your AC is 13 + Wisdom modifier. You gain temporary HP equal to three times your Druid level when you use this Wild Shape."
+      },
+      {
+        "id": "moon_circle_spells_2024",
+        "name": "Circle of the Moon Spells",
+        "description": "You always have certain spells prepared: Cantrip (Starry Wisp), L1 (Cure Wounds, Healing Word), L2 (Moonbeam - gained at Druid L3), L3 (Conjure Animals - gained at Druid L5), L4 (Polymorph - gained at Druid L7), L5 (Mass Cure Wounds - gained at Druid L9)."
+      }
+    ],
+    "6": [
+      {
+        "id": "moon_improve_circle_forms_2024",
+        "name": "Improve Circle Forms",
+        "description": "Lunar Radiance: Your attacks in beast form count as magical. Increased Toughness: Advantage on Constitution saving throws while in Wild Shape."
+      }
+    ],
+    "10": [
+      {
+        "id": "moon_moonlight_step_2024",
+        "name": "Moonlight Step",
+        "description": "As a bonus action, teleport up to 20 feet to an unoccupied space you can see. Usable Wis mod times (min 1) per Long Rest. Can expend a 2nd level or higher spell slot to use again."
+      }
+    ],
+    "14": [
+      {
+        "id": "moon_lunar_form_2024",
+        "name": "Lunar Form",
+        "description": "Improved Lunar Radiance: Once on each of your turns when you hit with an attack in beast form, deal an extra 1d8 radiant damage. Shared Moonlight: When you use Moonlight Step, you can choose one willing creature within 5 feet to teleport with you to a space adjacent to your destination."
+      }
+    ]
+  }
+}

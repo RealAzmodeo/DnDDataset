@@ -1,0 +1,76 @@
+{
+  "id": "light_domain_2024",
+  "name": "Light Domain (Cleric Subclass - 2024)",
+  "class_id": "cleric_2024",
+  "description": "Light Domain Clerics are blasters and controllers, specializing in fire and radiant damage, and dispelling darkness.",
+  "source": "RPGBOT 2024 Cleric Subclasses Guide (PHB)",
+  "domain_spells_note": "Light Domain Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "1": [
+      {
+        "id": "light_domain_spells_level_1_2024",
+        "name": "Domain Spells (Level 1)",
+        "description": "You gain domain spells at the cleric levels listed in the Light Domain Spells table. Always have Burning Hands, Faerie Fire prepared."
+      }
+    ],
+    "3": [
+      {
+        "id": "light_domain_channel_divinity_radiance_of_the_dawn_2024",
+        "name": "Channel Divinity: Radiance of the Dawn",
+        "description": "As an action, present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one."
+      },
+      {
+        "id": "light_domain_warding_flare_2024",
+        "name": "Warding Flare",
+        "description": "When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can_t be blinded is immune to this feature. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+      },
+      {
+        "id": "light_domain_spells_level_3_2024",
+        "name": "Domain Spells (Level 3)",
+        "description": "Always have Scorching Ray, See Invisibility prepared."
+      }
+    ],
+    "5": [
+      {
+        "id": "light_domain_spells_level_5_2024",
+        "name": "Domain Spells (Level 5)",
+        "description": "Always have Daylight, Fireball prepared."
+      }
+    ],
+    "6": [
+      {
+        "id": "light_domain_improved_flare_2024",
+        "name": "Improved Flare",
+        "description": "You can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you."
+      }
+    ],
+    "7": [
+      {
+        "id": "light_domain_spells_level_7_2024",
+        "name": "Domain Spells (Level 7)",
+        "description": "Always have Arcane Eye, Wall of Fire prepared."
+      }
+    ],
+    "8": [
+      {
+        "id": "light_domain_potent_spellcasting_override_2024",
+        "name": "Potent Spellcasting (Blessed Strikes Override)",
+        "description": "At 8th level, you gain Potent Spellcasting. Add your Wisdom modifier to the damage you deal with any cleric cantrip. This overrides the Blessed Strikes feature choice at level 7 if Divine Strike was chosen."
+      }
+    ],
+    "9": [
+      {
+        "id": "light_domain_spells_level_9_2024",
+        "name": "Domain Spells (Level 9)",
+        "description": "Always have Flame Strike, Scrying prepared."
+      }
+    ],
+    "17": [
+      {
+        "id": "light_domain_corona_of_light_2024",
+        "name": "Corona of Light",
+        "description": "As an action, you can activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light for an additional 30 feet. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage."
+      }
+    ]
+  }
+}

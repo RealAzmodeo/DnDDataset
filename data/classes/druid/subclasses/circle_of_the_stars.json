@@ -1,0 +1,42 @@
+{
+  "id": "circle_of_the_stars_2024",
+  "name": "Circle of the Stars (Druid Subclass - 2024)",
+  "class_id": "druid_2024",
+  "description": "Druids of the Circle of the Stars draw power from the constellations, using starlight to heal, harm, and gain cosmic insights.",
+  "source": "RPGBOT 2024 Druid Subclasses Guide (PHB)",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "stars_star_map_2024",
+        "name": "Star Map",
+        "description": "You create/receive a star map focus. You learn the Guidance cantrip and Guiding Bolt spell. You can cast Guiding Bolt without a spell slot a number of times equal to your Wisdom modifier (min 1) per long rest."
+      },
+      {
+        "id": "stars_starry_form_2024",
+        "name": "Starry Form",
+        "description": "As a bonus action, expend a use of Wild Shape to take on a starry form for 10 minutes. Choose one constellation: Archer (Bonus action ranged spell attack for 1d8+Wis radiant damage; 2d8 at L10), Chalice (When casting a spell restoring HP, you or another creature within 30ft regains 1d8+Wis HP; 2d8 at L10), Dragon (When making Int/Wis check or Con save for concentration, treat d20 roll of 9 or lower as 10; gains 20ft fly speed at L10)."
+      }
+    ],
+    "6": [
+      {
+        "id": "stars_cosmic_omen_2024",
+        "name": "Cosmic Omen",
+        "description": "When you finish a long rest, roll a d6. On an even roll, you are Weal; on an odd roll, you are Woe. When a creature you can see within 30 feet is about to make an attack roll, saving throw, or ability check, you can use your reaction to expend a spell slot to add (Weal) or subtract (Woe) 1d6 from the roll."
+      }
+    ],
+    "10": [
+      {
+        "id": "stars_twinkling_constellations_2024",
+        "name": "Twinkling Constellations",
+        "description": "The Archer form_s damage and Chalice form_s healing increase to 2d8. The Dragon form grants a 20-foot flying speed. You can change your active Starry Form constellation as a bonus action."
+      }
+    ],
+    "14": [
+      {
+        "id": "stars_full_of_stars_2024",
+        "name": "Full of Stars",
+        "description": "While your Starry Form is active, you have resistance to bludgeoning, piercing, and slashing damage."
+      }
+    ]
+  }
+}

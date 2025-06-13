@@ -1,0 +1,69 @@
+{
+  "id": "circle_of_the_land_2024",
+  "name": "Circle of the Land (Druid Subclass - 2024)",
+  "class_id": "druid_2024",
+  "description": "Druids of the Circle of the Land are mystics and sages who safeguard ancient knowledge and rites, drawing power from different natural terrains.",
+  "source": "D&D Beyond Basic Rules 2024 - Druid Class",
+  "circle_spells_note": "Circle Spells are always prepared and do not count against the number of spells you can prepare each day. You choose a land type (Arid, Polar, Temperate, Tropical) on Long Rest and gain spells associated with that land for your Druid level and lower.",
+  "land_spells_by_type_and_level": {
+    "Arid": {
+      "3": [{"id": "spell_blur", "name": "Blur"}, {"id": "spell_burning_hands", "name": "Burning Hands"}, {"id": "spell_fire_bolt", "name": "Fire Bolt"}],
+      "5": [{"id": "spell_fireball", "name": "Fireball"}],
+      "7": [{"id": "spell_blight", "name": "Blight"}],
+      "9": [{"id": "spell_wall_of_stone", "name": "Wall of Stone"}]
+    },
+    "Polar": {
+      "3": [{"id": "spell_fog_cloud", "name": "Fog Cloud"}, {"id": "spell_hold_person", "name": "Hold Person"}, {"id": "spell_ray_of_frost", "name": "Ray of Frost"}],
+      "5": [{"id": "spell_sleet_storm", "name": "Sleet Storm"}],
+      "7": [{"id": "spell_ice_storm", "name": "Ice Storm"}],
+      "9": [{"id": "spell_cone_of_cold", "name": "Cone of Cold"}]
+    },
+    "Temperate": {
+      "3": [{"id": "spell_misty_step", "name": "Misty Step"}, {"id": "spell_shocking_grasp", "name": "Shocking Grasp"}, {"id": "spell_sleep", "name": "Sleep"}],
+      "5": [{"id": "spell_lightning_bolt", "name": "Lightning Bolt"}],
+      "7": [{"id": "spell_freedom_of_movement", "name": "Freedom of Movement"}],
+      "9": [{"id": "spell_tree_stride", "name": "Tree Stride"}]
+    },
+    "Tropical": {
+      "3": [{"id": "spell_acid_splash", "name": "Acid Splash"}, {"id": "spell_ray_of_sickness", "name": "Ray of Sickness"}, {"id": "spell_web", "name": "Web"}],
+      "5": [{"id": "spell_stinking_cloud", "name": "Stinking Cloud"}],
+      "7": [{"id": "spell_polymorph", "name": "Polymorph"}],
+      "9": [{"id": "spell_insect_plague", "name": "Insect Plague"}]
+    }
+  },
+  "features_by_level": {
+    "3": [
+      {
+        "id": "land_circle_spells_2024",
+        "name": "Circle of the Land Spells",
+        "description": "Whenever you finish a Long Rest, choose one type of land: Arid, Polar, Temperate, or Tropical. You have the spells listed for your chosen land type (for your Druid level and lower) prepared until you choose a different land type."
+      },
+      {
+        "id": "land_lands_aid_2024",
+        "name": "Land_s Aid",
+        "description": "As a Magic action, expend one use of Wild Shape. Choose a point within 60ft. Flowers and thorns appear in a 10ft radius sphere. Each creature of your choice in sphere makes Con save (vs. your spell DC), taking 2d6 Necrotic on fail (half on success). One creature of your choice in area regains 2d6 HP. Damage/healing increases by 1d6 at Druid levels 10 (3d6) and 14 (4d6)."
+      }
+    ],
+    "6": [
+      {
+        "id": "land_natural_recovery_2024",
+        "name": "Natural Recovery",
+        "description": "Can cast one prepared L1+ Circle Spell without expending a slot (regain on Long Rest). Also, on Short Rest, can recover expended spell slots (combined level <= half Druid level, round up; none L6+). Once per Long Rest for slot recovery."
+      }
+    ],
+    "10": [
+      {
+        "id": "land_natures_ward_2024",
+        "name": "Nature_s Ward",
+        "description": "Immune to Poisoned condition. Gain Resistance to damage type associated with current land choice: Arid (Fire), Polar (Cold), Temperate (Lightning), Tropical (Poison)."
+      }
+    ],
+    "14": [
+      {
+        "id": "land_natures_sanctuary_2024",
+        "name": "Nature_s Sanctuary",
+        "description": "As Magic action, expend Wild Shape use. Spectral trees/vines appear in 15ft cube on ground within 120ft for 1 min (or until Incapacitated/die). You/allies have Half Cover in area. Allies gain current Nature_s Ward resistance while there. Bonus Action to move cube up to 60ft to ground within 120ft."
+      }
+    ]
+  }
+}

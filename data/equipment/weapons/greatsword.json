@@ -1,0 +1,11 @@
+{
+  "id": "greatsword_2024",
+  "name": "Greatsword (2024)",
+  "category": "Martial Melee",
+  "cost": "50 GP",
+  "damage": "2d6 slashing",
+  "weight": "6 lb.",
+  "properties": ["Heavy", "Two-Handed"],
+  "mastery": "Graze",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

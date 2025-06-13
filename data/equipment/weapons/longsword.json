@@ -1,0 +1,11 @@
+{
+  "id": "longsword_2024",
+  "name": "Longsword (2024)",
+  "category": "Martial Melee",
+  "cost": "15 GP",
+  "damage": "1d8 slashing",
+  "weight": "3 lb.",
+  "properties": ["Versatile (1d10)"],
+  "mastery": "Sap",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

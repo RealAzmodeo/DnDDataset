@@ -1,0 +1,30 @@
+{
+  "id": "life_domain_2024",
+  "name": "Life Domain (Cleric Subclass - 2024)",
+  "class_id": "cleric_2024",
+  "description": "The Life Domain focuses on the positive energy that helps sustain all life. Clerics of this domain are masters of healing.",
+  "source": "D&D Beyond Basic Rules 2024 - Cleric Class",
+  "domain_spells_note": "Life Domain Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "3": [
+      {"id": "life_domain_disciple_of_life_2024", "name": "Disciple of Life", "description": "When a spell you cast with a spell slot restores HP, creature regains additional HP = 2 + spell slot’s level on that turn."},
+      {"id": "life_domain_spells_3_2024", "name": "Life Domain Spells (Level 3)", "description": "Always have Aid, Bless, Cure Wounds, Lesser Restoration prepared."},
+      {"id": "life_domain_preserve_life_2024", "name": "Channel Divinity: Preserve Life", "description": "As Magic action, present Holy Symbol, expend Channel Divinity. Restore HP = 5x Cleric level. Choose Bloodied creatures within 30ft, divide HP among them. Can restore creature to no more than half its HP max."}
+    ],
+    "5": [
+      {"id": "life_domain_spells_5_2024", "name": "Life Domain Spells (Level 5)", "description": "Always have Mass Healing Word, Revivify prepared."}
+    ],
+    "6": [
+      {"id": "life_domain_blessed_healer_2024", "name": "Blessed Healer", "description": "Immediately after casting a spell with a slot that restores HP to others, you regain HP = 2 + spell slot’s level."}
+    ],
+    "7": [
+      {"id": "life_domain_spells_7_2024", "name": "Life Domain Spells (Level 7)", "description": "Always have Aura of Life, Death Ward prepared."}
+    ],
+    "9": [
+      {"id": "life_domain_spells_9_2024", "name": "Life Domain Spells (Level 9)", "description": "Always have Greater Restoration, Mass Cure Wounds prepared."}
+    ],
+    "17": [
+      {"id": "life_domain_supreme_healing_2024", "name": "Supreme Healing", "description": "When rolling dice to restore HP with a spell or Channel Divinity, use highest number possible for each die instead of rolling."}
+    ]
+  }
+}

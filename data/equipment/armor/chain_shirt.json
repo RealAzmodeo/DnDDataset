@@ -1,0 +1,12 @@
+{
+  "id": "chain_shirt_2024",
+  "name": "Chain Shirt (2024)",
+  "category": "Medium Armor",
+  "cost": "50 GP",
+  "armor_class": "13 + Dex modifier (max 2)",
+  "strength_requirement": null,
+  "stealth_disadvantage": false,
+  "weight": "20 lb.",
+  "don_doff_time": "5 Minutes to Don and 1 Minute to Doff",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

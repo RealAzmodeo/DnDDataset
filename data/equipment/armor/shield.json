@@ -1,0 +1,12 @@
+{
+  "id": "shield_2024",
+  "name": "Shield (2024)",
+  "category": "Shield",
+  "cost": "10 GP",
+  "armor_class": "+2",
+  "strength_requirement": null,
+  "stealth_disadvantage": false,
+  "weight": "6 lb.",
+  "don_doff_time": "Utilize Action to Don or Doff",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

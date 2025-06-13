@@ -1,43 +1,100 @@
 {
-  "id": "fighter",
-  "name": "Fighter",
-  "description": "Fighters share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. They are well acquainted with death, both meting it out and staring it defiantly in the face.",
+  "id": "fighter_2024",
+  "name": "Fighter (2024)",
+  "description": "Fighters rule many battlefields, sharing an unparalleled prowess with weapons and armor. They are well acquainted with death, both meting it out and defying it.",
   "hit_die": "d10",
+  "primary_ability": ["Strength or Dexterity"],
   "proficiencies": {
     "armor": ["Light armor", "Medium armor", "Heavy armor", "Shields"],
     "weapons": ["Simple weapons", "Martial weapons"],
     "tools": ["None"],
+    "saving_throws": ["Strength", "Constitution"],
     "skills": {
       "choose": 2,
-      "from": ["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Perception", "Survival"]
+      "from": ["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Persuasion", "Perception", "Survival"]
     }
   },
-  "saving_throws": ["Strength", "Constitution"],
-  "starting_equipment": [
-    "Chain mail or leather armor, longbow, and 20 arrows",
-    "A martial weapon and a shield or two martial weapons",
-    "A light crossbow and 20 bolts or two handaxes",
-    "A dungeoneer's pack or an explorer's pack"
+  "starting_equipment_options": [
+    "(A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer’s Pack, and 4 GP",
+    "(B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer’s Pack, and 11 GP",
+    "(C) 155 GP"
   ],
   "features_by_level": {
     "1": [
-      {
-        "id": "fighter_fighting_style",
-        "name": "Fighting Style",
-        "description": "You adopt a particular style of fighting as your specialty. Choose one of the available fighting styles. You can’t take a Fighting Style option more than once, even if you later get to choose again."
-      },
-      {
-        "id": "fighter_second_wind",
-        "name": "Second Wind",
-        "description": "You have a limited well of stamina you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
-      }
+      {"id": "fighter_fighting_style_2024", "name": "Fighting Style", "description": "You have honed your martial prowess and gain a Fighting Style feat of your choice. (Defense is recommended). Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat."},
+      {"id": "fighter_second_wind_2024", "name": "Second Wind", "description": "You have a limited well of physical and mental stamina. As a Bonus Action, regain HP equal to 1d10 + Fighter level. Uses: 2 (regain 1 on Short Rest, all on Long Rest). Increases at levels 4, 10, 16."},
+      {"id": "fighter_weapon_mastery_2024", "name": "Weapon Mastery", "description": "Use mastery properties of 3 kinds of Simple/Martial weapons. Change one choice on Long Rest. Increases at levels 4, 10, 16."}
     ],
     "2": [
-      {
-        "id": "fighter_action_surge",
-        "name": "Action Surge",
-        "description": "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action. Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
-      }
+      {"id": "fighter_action_surge_2024", "name": "Action Surge", "description": "Take one additional action (except Magic action). Once per Short/Long Rest. (Two uses at level 17, but only once per turn)."},
+      {"id": "fighter_tactical_mind_2024", "name": "Tactical Mind", "description": "When you fail an ability check, expend Second Wind use to roll 1d10 and add to the check. If still fails, Second Wind use is not expended."}
+    ],
+    "3": [
+      {"id": "fighter_subclass_2024", "name": "Fighter Subclass", "description": "Gain a Fighter subclass. (Champion is detailed in Basic Rules)."}
+    ],
+    "4": [
+      {"id": "fighter_asi_4_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "5": [
+      {"id": "fighter_extra_attack_1_2024", "name": "Extra Attack", "description": "Attack twice when taking Attack action."},
+      {"id": "fighter_tactical_shift_2024", "name": "Tactical Shift", "description": "When activating Second Wind, move up to half speed without provoking Opportunity Attacks."}
+    ],
+    "6": [
+      {"id": "fighter_asi_6_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "7": [
+      {"id": "fighter_subclass_feature_7_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "8": [
+      {"id": "fighter_asi_8_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "9": [
+      {"id": "fighter_indomitable_1_2024", "name": "Indomitable (One Use)", "description": "Reroll a failed saving throw with bonus equal to Fighter level. Once per Long Rest."},
+      {"id": "fighter_tactical_master_2024", "name": "Tactical Master", "description": "When attacking with a weapon whose mastery property you can use, replace it with Push, Sap, or Slow property for that attack."}
+    ],
+    "10": [
+      {"id": "fighter_subclass_feature_10_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "11": [
+      {"id": "fighter_extra_attack_2_2024", "name": "Two Extra Attacks", "description": "Attack three times when taking Attack action."}
+    ],
+    "12": [
+      {"id": "fighter_asi_12_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "13": [
+      {"id": "fighter_indomitable_2_2024", "name": "Indomitable (Two Uses)", "description": "Indomitable can be used twice per Long Rest."},
+      {"id": "fighter_studied_attacks_2024", "name": "Studied Attacks", "description": "If you miss an attack roll, gain Advantage on next attack roll against that creature before end of your next turn."}
+    ],
+    "14": [
+      {"id": "fighter_asi_14_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "15": [
+      {"id": "fighter_subclass_feature_15_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "16": [
+      {"id": "fighter_asi_16_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "17": [
+      {"id": "fighter_action_surge_2_2024", "name": "Action Surge (Two Uses)", "description": "Action Surge can be used twice per Short/Long Rest."},
+      {"id": "fighter_indomitable_3_2024", "name": "Indomitable (Three Uses)", "description": "Indomitable can be used three times per Long Rest."}
+    ],
+    "18": [
+      {"id": "fighter_subclass_feature_18_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "19": [
+      {"id": "fighter_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of Combat Prowess recommended)."}
+    ],
+    "20": [
+      {"id": "fighter_extra_attack_3_2024", "name": "Three Extra Attacks", "description": "Attack four times when taking Attack action."}
     ]
-  }
+  },
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Second Wind", "Weapon Mastery"],
+  "source": "D&D Beyond Basic Rules 2024",
+  "subclasses": [
+    {
+      "id": "champion_2024",
+      "name": "Champion",
+      "path_to_file": "data/classes/fighter/subclasses/champion.json"
+    }
+  ]
 }

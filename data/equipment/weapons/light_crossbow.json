@@ -1,0 +1,11 @@
+{
+  "id": "light_crossbow_2024",
+  "name": "Light Crossbow (2024)",
+  "category": "Simple Ranged",
+  "cost": "25 GP",
+  "damage": "1d8 piercing",
+  "weight": "5 lb.",
+  "properties": ["Ammunition (Range 80/320; Bolt)", "Loading", "Two-Handed"],
+  "mastery": "Slow",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

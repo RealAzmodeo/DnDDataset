@@ -1,0 +1,12 @@
+{
+  "id": "plate_armor_2024",
+  "name": "Plate Armor (2024)",
+  "category": "Heavy Armor",
+  "cost": "1,500 GP",
+  "armor_class": "18",
+  "strength_requirement": 15,
+  "stealth_disadvantage": true,
+  "weight": "65 lb.",
+  "don_doff_time": "10 Minutes to Don and 5 Minutes to Doff",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

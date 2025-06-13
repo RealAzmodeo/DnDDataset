@@ -1,0 +1,11 @@
+{
+  "id": "shortsword_2024",
+  "name": "Shortsword (2024)",
+  "category": "Martial Melee",
+  "cost": "10 GP",
+  "damage": "1d6 piercing",
+  "weight": "2 lb.",
+  "properties": ["Finesse", "Light"],
+  "mastery": "Vex",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

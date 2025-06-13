@@ -1,0 +1,11 @@
+{
+  "id": "dagger_2024",
+  "name": "Dagger (2024)",
+  "category": "Simple Melee",
+  "cost": "2 GP",
+  "damage": "1d4 piercing",
+  "weight": "1 lb.",
+  "properties": ["Finesse", "Light", "Thrown (Range 20/60)"],
+  "mastery": "Nick",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

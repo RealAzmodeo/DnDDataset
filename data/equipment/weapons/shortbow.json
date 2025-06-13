@@ -1,0 +1,11 @@
+{
+  "id": "shortbow_2024",
+  "name": "Shortbow (2024)",
+  "category": "Simple Ranged",
+  "cost": "25 GP",
+  "damage": "1d6 piercing",
+  "weight": "2 lb.",
+  "properties": ["Ammunition (Range 80/320; Arrow)", "Two-Handed"],
+  "mastery": "Vex",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

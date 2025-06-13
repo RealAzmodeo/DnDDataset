@@ -1,0 +1,27 @@
+{
+  "id": "orc_2024",
+  "name": "Orc (2024)",
+  "description": "Orcs trace their creation to Gruumsh. They retain Gruumsh’s gifts: endurance, determination, and the ability to see in darkness.",
+  "creature_type": "Humanoid",
+  "size_options": ["Medium (about 6-7 feet tall)"],
+  "default_size": "Medium (about 6-7 feet tall)",
+  "speed": 30,
+  "traits": [
+    {
+      "id": "orc_adrenaline_rush_2024",
+      "name": "Adrenaline Rush",
+      "description": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest."
+    },
+    {
+      "id": "orc_darkvision_2024",
+      "name": "Darkvision",
+      "description": "You have Darkvision with a range of 120 feet."
+    },
+    {
+      "id": "orc_relentless_endurance_2024",
+      "name": "Relentless Endurance",
+      "description": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can’t do so again until you finish a Long Rest."
+    }
+  ],
+  "source": "D&D Beyond Basic Rules 2024"
+}

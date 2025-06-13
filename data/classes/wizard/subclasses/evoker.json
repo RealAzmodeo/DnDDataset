@@ -1,0 +1,22 @@
+{
+  "id": "evoker_2024",
+  "name": "Evoker (Wizard Subclass - 2024)",
+  "class_id": "wizard_2024",
+  "description": "Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid.",
+  "source": "D&D Beyond Basic Rules 2024 - Wizard Class",
+  "features_by_level": {
+    "3": [
+      {"id": "evoker_evocation_savant_2024", "name": "Evocation Savant", "description": "Choose two Wizard spells from Evocation school (L2 or lower), add to spellbook free. When gaining new spell slot levels, add one Evocation spell of that level free."},
+      {"id": "evoker_potent_cantrip_2024", "name": "Potent Cantrip", "description": "Damaging cantrips affect creatures even if they avoid the brunt. Missed attack or successful save -> target takes half cantrip damage (if any), no additional effects."}
+    ],
+    "6": [
+      {"id": "evoker_sculpt_spells_2024", "name": "Sculpt Spells", "description": "When casting an Evocation spell affecting other creatures you see, choose a number of them (1 + spell level). Chosen creatures auto-succeed saves, take no damage if normally half."}
+    ],
+    "10": [
+      {"id": "evoker_empowered_evocation_2024", "name": "Empowered Evocation", "description": "Add Intelligence modifier to one damage roll of any Wizard Evocation spell you cast."}
+    ],
+    "14": [
+      {"id": "evoker_overchannel_2024", "name": "Overchannel", "description": "When casting a L1-5 Wizard spell dealing damage, deal max damage. First time no penalty. Subsequent uses before Long Rest: take 2d12 Necrotic per spell level (ignores Res/Immunity), increases by 1d12 per use."}
+    ]
+  }
+}

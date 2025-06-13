@@ -1,0 +1,70 @@
+{
+  "id": "cleric_2024",
+  "name": "Cleric (2024)",
+  "description": "Clerics draw power from the realms of the gods and harness it to work miracles, bolster people, and battle foes.",
+  "hit_die": "d8",
+  "primary_ability": ["Wisdom"],
+  "proficiencies": {
+    "armor": ["Light armor", "Medium armor", "Shields"],
+    "weapons": ["Simple weapons"],
+    "tools": ["None"],
+    "saving_throws": ["Wisdom", "Charisma"],
+    "skills": {
+      "choose": 2,
+      "from": ["History", "Insight", "Medicine", "Persuasion", "Religion"]
+    }
+  },
+  "starting_equipment_options": [
+    "(A) Chain Shirt, Shield, Mace, Holy Symbol, Priest’s Pack, and 7 GP",
+    "(B) 110 GP"
+  ],
+  "spellcasting_ability": "Wisdom",
+  "features_by_level": {
+    "1": [
+      {"id": "cleric_spellcasting_2024", "name": "Spellcasting", "description": "Access to Cleric spell list, prepare spells. Starts with 3 cantrips, 4 prepared spells."},
+      {"id": "cleric_divine_order_2024", "name": "Divine Order", "description": "Choose Protector (Martial weapon & Heavy armor proficiency) or Thaumaturge (1 extra Cleric cantrip, bonus to Arcana/Religion checks = Wis mod)."}
+    ],
+    "2": [
+      {"id": "cleric_channel_divinity_2024", "name": "Channel Divinity (2/rest)", "description": "Use Channel Divinity twice (regain 1 on Short Rest, all on Long). Effects: Divine Spark (heal/damage 1d8+Wis), Turn Undead."}
+    ],
+    "3": [
+      {"id": "cleric_subclass_2024", "name": "Cleric Subclass", "description": "Gain a Cleric subclass. (Life Domain is detailed in Basic Rules)."}
+    ],
+    "4": [
+      {"id": "cleric_asi_4_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat. Learns 1 additional cantrip."}
+    ],
+    "5": [
+      {"id": "cleric_sear_undead_2024", "name": "Sear Undead", "description": "When using Turn Undead, Undead that fail save take Radiant damage = Wis mod d8s."}
+    ],
+    "6": [
+       {"id": "cleric_channel_divinity_3_2024", "name": "Channel Divinity (3/rest)", "description": "Channel Divinity uses increase to 3."}
+    ],
+    "7": [
+      {"id": "cleric_blessed_strikes_2024", "name": "Blessed Strikes", "description": "Choose: Divine Strike (once/turn, hit with weapon adds 1d8 Necrotic/Radiant) OR Potent Spellcasting (add Wis mod to Cleric cantrip damage)."}
+    ],
+    "10": [
+      {"id": "cleric_divine_intervention_2024", "name": "Divine Intervention", "description": "As Magic action, cast any Cleric spell L5 or lower without slot/materials. Once per Long Rest. Learns 1 additional cantrip."}
+    ],
+    "14": [
+      {"id": "cleric_improved_blessed_strikes_2024", "name": "Improved Blessed Strikes", "description": "Divine Strike damage -> 2d8. Potent Spellcasting: when dealing damage with Cleric cantrip, grant self or ally Temp HP = 2x Wis mod."}
+    ],
+    "18": [
+       {"id": "cleric_channel_divinity_4_2024", "name": "Channel Divinity (4/rest)", "description": "Channel Divinity uses increase to 4."}
+    ],
+    "19": [
+      {"id": "cleric_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of Fate recommended)."}
+    ],
+    "20": [
+      {"id": "cleric_greater_divine_intervention_2024", "name": "Greater Divine Intervention", "description": "Divine Intervention can cast Wish. If so, can’t use Divine Intervention again until 2d4 Long Rests."}
+    ]
+  },
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Channel Divinity", "Cantrips", "Prepared Spells", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th"],
+  "source": "D&D Beyond Basic Rules 2024",
+  "subclasses": [
+    {
+      "id": "life_domain_2024",
+      "name": "Life Domain",
+      "path_to_file": "data/classes/cleric/subclasses/life_domain.json"
+    }
+  ]
+}

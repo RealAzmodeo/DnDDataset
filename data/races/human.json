@@ -1,23 +1,27 @@
 {
-  "id": "human",
-  "name": "Human",
-  "description": "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
-  "ability_score_increases": {
-    "strength": 1,
-    "dexterity": 1,
-    "constitution": 1,
-    "intelligence": 1,
-    "wisdom": 1,
-    "charisma": 1
-  },
-  "size": "Medium",
+  "id": "human_2024",
+  "name": "Human (2024)",
+  "description": "Found throughout the multiverse, humans are as varied as they are numerous, and they endeavor to achieve as much as they can in the years they are given.",
+  "creature_type": "Humanoid",
+  "size_options": ["Medium (about 4-7 feet tall)", "Small (about 2-4 feet tall)"],
+  "default_size": "Medium (about 4-7 feet tall)",
   "speed": 30,
-  "languages": ["Common", "One extra language of your choice"],
   "traits": [
     {
-      "id": "human_versatility",
-      "name": "Versatility",
+      "id": "human_resourceful_2024",
+      "name": "Resourceful",
+      "description": "You gain Heroic Inspiration whenever you finish a Long Rest."
+    },
+    {
+      "id": "human_skillful_2024",
+      "name": "Skillful",
       "description": "You gain proficiency in one skill of your choice."
+    },
+    {
+      "id": "human_versatile_2024",
+      "name": "Versatile",
+      "description": "You gain an Origin feat of your choice. (Skilled is recommended by the rules)."
     }
-  ]
+  ],
+  "source": "D&D Beyond Basic Rules 2024"
 }

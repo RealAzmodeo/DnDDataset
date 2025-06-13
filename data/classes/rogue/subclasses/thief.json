@@ -1,0 +1,22 @@
+{
+  "id": "thief_2024",
+  "name": "Thief (Rogue Subclass - 2024)",
+  "class_id": "rogue_2024",
+  "description": "A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer, gaining abilities for delving into ruins and using magic items.",
+  "source": "D&D Beyond Basic Rules 2024 - Rogue Class",
+  "features_by_level": {
+    "3": [
+      {"id": "thief_fast_hands_2024", "name": "Fast Hands", "description": "As Bonus Action: Make Dex (Sleight of Hand) check to pick lock/disarm trap/pick pocket; OR Take Utilize action; OR Take Magic action to use magic item requiring that action."},
+      {"id": "thief_second_story_work_2024", "name": "Second-Story Work", "description": "Gain Climb Speed = Speed. Determine jump distance using Dex instead of Str."}
+    ],
+    "9": [
+      {"id": "thief_supreme_sneak_2024", "name": "Supreme Sneak", "description": "New Cunning Strike option: Stealth Attack (Cost: 1d6). If Hidden (Invisible condition from Hide action), this attack doesn’t end Invisible if you end turn behind 3/4 or Total Cover."}
+    ],
+    "13": [
+      {"id": "thief_use_magic_device_2024", "name": "Use Magic Device", "description": "Benefits: Attune to up to 4 magic items. When using magic item property that expends charges, roll 1d6; on 6, use property without expending charges. Can use any Spell Scroll (Int as spellcasting ability); L0-1 spells cast reliably, higher require Int (Arcana) check DC 10+spell level."}
+    ],
+    "17": [
+      {"id": "thief_thiefs_reflexes_2024", "name": "Thief’s Reflexes", "description": "Take two turns during first round of combat: first at normal Initiative, second at Initiative - 10."}
+    ]
+  }
+}

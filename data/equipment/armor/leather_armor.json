@@ -1,0 +1,12 @@
+{
+  "id": "leather_armor_2024",
+  "name": "Leather Armor (2024)",
+  "category": "Light Armor",
+  "cost": "10 GP",
+  "armor_class": "11 + Dex modifier",
+  "strength_requirement": null,
+  "stealth_disadvantage": false,
+  "weight": "10 lb.",
+  "don_doff_time": "1 Minute to Don or Doff",
+  "source": "D&D Beyond Basic Rules 2024 - Equipment"
+}

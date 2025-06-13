@@ -1,33 +1,58 @@
 {
-  "id": "elf",
-  "name": "Elf",
-  "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
-  "ability_score_increases": {
-    "dexterity": 2
-  },
-  "size": "Medium",
+  "id": "elf_2024",
+  "name": "Elf (2024)",
+  "description": "Elves have pointed ears and lack facial and body hair. They live for around 750 years, and they don’t sleep but instead enter a trance when they need to rest.",
+  "creature_type": "Humanoid",
+  "size_options": ["Medium (about 5-6 feet tall)"],
+  "default_size": "Medium (about 5-6 feet tall)",
   "speed": 30,
-  "languages": ["Common", "Elvish"],
   "traits": [
     {
-      "id": "elf_darkvision",
+      "id": "elf_darkvision_2024",
       "name": "Darkvision",
-      "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+      "description": "You have Darkvision with a range of 60 feet."
     },
     {
-      "id": "elf_keen_senses",
-      "name": "Keen Senses",
-      "description": "You have proficiency in the Perception skill."
-    },
-    {
-      "id": "elf_fey_ancestry",
+      "id": "elf_fey_ancestry_2024",
       "name": "Fey Ancestry",
-      "description": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep."
+      "description": "You have Advantage on saving throws you make to avoid or end the Charmed condition."
     },
     {
-      "id": "elf_trance",
+      "id": "elf_keen_senses_2024",
+      "name": "Keen Senses",
+      "description": "You have proficiency in the Insight, Perception, or Survival skill (choose one)."
+    },
+    {
+      "id": "elf_trance_2024",
       "name": "Trance",
-      "description": "Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+      "description": "You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
     }
-  ]
+  ],
+  "lineages": [
+    {
+      "id": "elf_lineage_drow_2024",
+      "name": "Drow Lineage",
+      "level_1_benefit": "The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.",
+      "level_3_spell": "Faerie Fire",
+      "level_5_spell": "Darkness",
+      "spellcasting_ability_options": ["Intelligence", "Wisdom", "Charisma"]
+    },
+    {
+      "id": "elf_lineage_high_elf_2024",
+      "name": "High Elf Lineage",
+      "level_1_benefit": "You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
+      "level_3_spell": "Detect Magic",
+      "level_5_spell": "Misty Step",
+      "spellcasting_ability_options": ["Intelligence", "Wisdom", "Charisma"]
+    },
+    {
+      "id": "elf_lineage_wood_elf_2024",
+      "name": "Wood Elf Lineage",
+      "level_1_benefit": "Your Speed increases to 35 feet. You also know the Druidcraft cantrip.",
+      "level_3_spell": "Longstrider",
+      "level_5_spell": "Pass without Trace",
+      "spellcasting_ability_options": ["Intelligence", "Wisdom", "Charisma"]
+    }
+  ],
+  "source": "D&D Beyond Basic Rules 2024"
 }

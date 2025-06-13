@@ -1,0 +1,64 @@
+{
+  "id": "wizard_2024",
+  "name": "Wizard (2024)",
+  "description": "Wizards are defined by their exhaustive study of magic’s inner workings, casting spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations.",
+  "hit_die": "d6",
+  "primary_ability": ["Intelligence"],
+  "proficiencies": {
+    "armor": ["None"],
+    "weapons": ["Simple weapons"],
+    "tools": ["None"],
+    "saving_throws": ["Intelligence", "Wisdom"],
+    "skills": {
+      "choose": 2,
+      "from": ["Arcana", "History", "Insight", "Investigation", "Medicine", "Nature", "Religion"]
+    }
+  },
+  "starting_equipment_options": [
+    "(A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar’s Pack, and 5 GP",
+    "(B) 55 GP"
+  ],
+  "spellcasting_ability": "Intelligence",
+  "spellbook_known_spells_level_1": 6,
+  "spellbook_spells_per_level_up": 2,
+  "features_by_level": {
+    "1": [
+      {"id": "wizard_spellcasting_2024", "name": "Spellcasting", "description": "Access to Wizard spell list, prepare spells from spellbook. Starts with 3 cantrips, 4 prepared spells (from 6 in spellbook)."},
+      {"id": "wizard_ritual_adept_2024", "name": "Ritual Adept", "description": "Can cast any spell as a Ritual if it has the Ritual tag and is in your spellbook (need not be prepared)."},
+      {"id": "wizard_arcane_recovery_2024", "name": "Arcane Recovery", "description": "Once per Long Rest, after a Short Rest, recover expended spell slots. Combined level up to half Wizard level (rounded up), none level 6+."}
+    ],
+    "2": [
+      {"id": "wizard_scholar_2024", "name": "Scholar", "description": "Choose one proficient skill (Arcana, History, Investigation, Medicine, Nature, or Religion) to gain Expertise in."}
+    ],
+    "3": [
+      {"id": "wizard_subclass_2024", "name": "Wizard Subclass", "description": "Gain a Wizard subclass. (Evoker is detailed in Basic Rules)."}
+    ],
+    "4": [
+      {"id": "wizard_asi_4_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat. Learns 1 additional cantrip."}
+    ],
+    "5": [
+      {"id": "wizard_memorize_spell_2024", "name": "Memorize Spell", "description": "After a Short Rest, study spellbook and replace one prepared L1+ Wizard spell with another from the book."}
+    ],
+    "10": [
+      {"id": "wizard_cantrip_10_2024", "name": "Additional Cantrip", "description": "Learns 1 additional cantrip."}
+    ],
+    "18": [
+      {"id": "wizard_spell_mastery_2024", "name": "Spell Mastery", "description": "Choose a L1 and L2 spell from spellbook (action casting time). Always have them prepared, cast at lowest level without slot. Can change on Long Rest."}
+    ],
+    "19": [
+      {"id": "wizard_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of Spell Recall recommended)."}
+    ],
+    "20": [
+      {"id": "wizard_signature_spells_2024", "name": "Signature Spells", "description": "Choose two L3 spells from spellbook. Always prepared, cast each once at L3 without slot per Short/Long Rest."}
+    ]
+  },
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Cantrips", "Prepared Spells", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th"],
+  "source": "D&D Beyond Basic Rules 2024",
+  "subclasses": [
+    {
+      "id": "evoker_2024",
+      "name": "Evoker",
+      "path_to_file": "data/classes/wizard/subclasses/evoker.json"
+    }
+  ]
+}

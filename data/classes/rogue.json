@@ -1,0 +1,78 @@
+{
+  "id": "rogue_2024",
+  "name": "Rogue (2024)",
+  "description": "Rogues rely on cunning, stealth, and their foes’ vulnerabilities to get the upper hand in any situation.",
+  "hit_die": "d8",
+  "primary_ability": ["Dexterity"],
+  "proficiencies": {
+    "armor": ["Light armor"],
+    "weapons": ["Simple weapons", "Martial weapons with Finesse or Light property"],
+    "tools": ["Thieves’ Tools"],
+    "saving_throws": ["Dexterity", "Intelligence"],
+    "skills": {
+      "choose": 4,
+      "from": ["Acrobatics", "Athletics", "Deception", "Insight", "Intimidation", "Investigation", "Perception", "Persuasion", "Sleight of Hand", "Stealth"]
+    }
+  },
+  "starting_equipment_options": [
+    "(A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves’ Tools, Burglar’s Pack, and 8 GP",
+    "(B) 100 GP"
+  ],
+  "features_by_level": {
+    "1": [
+      {"id": "rogue_expertise_1_2024", "name": "Expertise (Level 1)", "description": "Gain Expertise in two skill proficiencies. (Sleight of Hand & Stealth recommended)."},
+      {"id": "rogue_sneak_attack_2024", "name": "Sneak Attack", "description": "Once per turn, deal extra damage (starts 1d6, increases with level) on attack with Advantage using Finesse/Ranged, or if ally is within 5ft of target."},
+      {"id": "rogue_thieves_cant_2024", "name": "Thieves’ Cant", "description": "Know Thieves’ Cant and one other language."},
+      {"id": "rogue_weapon_mastery_2024", "name": "Weapon Mastery", "description": "Use mastery properties of 2 kinds of proficient weapons. Change on Long Rest."}
+    ],
+    "2": [
+      {"id": "rogue_cunning_action_2024", "name": "Cunning Action", "description": "Take Dash, Disengage, or Hide action as a Bonus Action."}
+    ],
+    "3": [
+      {"id": "rogue_subclass_2024", "name": "Rogue Subclass", "description": "Gain a Rogue subclass. (Thief is detailed in Basic Rules)."},
+      {"id": "rogue_steady_aim_2024", "name": "Steady Aim", "description": "As Bonus Action, gain Advantage on next attack roll this turn. Can only use if not moved; speed becomes 0 until end of turn."}
+    ],
+    "5": [
+      {"id": "rogue_cunning_strike_2024", "name": "Cunning Strike", "description": "When dealing Sneak Attack, forgo Sneak Attack dice to add effects: Poison (1d6 cost), Trip (1d6 cost), Withdraw (1d6 cost)."},
+      {"id": "rogue_uncanny_dodge_2024", "name": "Uncanny Dodge", "description": "As Reaction, halve an attacker’s damage against you."}
+    ],
+    "6": [
+      {"id": "rogue_expertise_6_2024", "name": "Expertise (Level 6)", "description": "Gain Expertise in two more skill proficiencies."}
+    ],
+    "7": [
+      {"id": "rogue_evasion_2024", "name": "Evasion", "description": "Succeed on Dex save for half damage -> take no damage. Fail -> take half."},
+      {"id": "rogue_reliable_talent_2024", "name": "Reliable Talent", "description": "Treat d20 roll of 9 or lower as 10 for ability checks with skill/tool proficiency."}
+    ],
+    "11": [
+      {"id": "rogue_improved_cunning_strike_2024", "name": "Improved Cunning Strike", "description": "Can use up to two Cunning Strike effects when dealing Sneak Attack damage."}
+    ],
+    "14": [
+      {"id": "rogue_devious_strikes_2024", "name": "Devious Strikes", "description": "New Cunning Strike options: Daze (2d6 cost), Knock Out (6d6 cost), Obscure (3d6 cost)."}
+    ],
+    "15": [
+      {"id": "rogue_slippery_mind_2024", "name": "Slippery Mind", "description": "Gain proficiency in Wisdom and Charisma saving throws."}
+    ],
+    "18": [
+      {"id": "rogue_elusive_2024", "name": "Elusive", "description": "No attack roll can have Advantage against you unless Incapacitated."}
+    ],
+    "19": [
+      {"id": "rogue_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of the Night Spirit recommended)."}
+    ],
+    "20": [
+      {"id": "rogue_stroke_of_luck_2024", "name": "Stroke of Luck", "description": "Turn a failed d20 Test into a 20. Once per Short/Long Rest."}
+    ]
+  },
+  "sneak_attack_progression": {
+    "1": "1d6", "2": "1d6", "3": "2d6", "4": "2d6", "5": "3d6", "6": "3d6", "7": "4d6", "8": "4d6", "9": "5d6", "10": "5d6",
+    "11": "6d6", "12": "6d6", "13": "7d6", "14": "7d6", "15": "8d6", "16": "8d6", "17": "9d6", "18": "9d6", "19": "10d6", "20": "10d6"
+  },
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Sneak Attack"],
+  "source": "D&D Beyond Basic Rules 2024",
+  "subclasses": [
+    {
+      "id": "thief_2024",
+      "name": "Thief",
+      "path_to_file": "data/classes/rogue/subclasses/thief.json"
+    }
+  ]
+}

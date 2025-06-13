@@ -1,0 +1,68 @@
+{
+  "id": "oath_of_the_ancients_2024",
+  "name": "Oath of the Ancients (Paladin Subclass - 2024)",
+  "class_id": "paladin_2024",
+  "description": "Paladins of the Oath of the Ancients preserve the light and joy in the world, kindling the hope of the helpless and opposing despair.",
+  "source": "RPGBOT 2024 Paladin Subclasses Guide (PHB)",
+  "tenets": [
+    "Kindle the Light: Through acts of mercy, kindness, and forgiveness, kindle the light of hope in the world.",
+    "Shelter the Light: Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it.",
+    "Preserve Your Own Light: Delight in song and laughter, in beauty, and in art. If you allow the light to die in your own heart, you can_t preserve it in the world.",
+    "Be the Light: Be a beacon against despair. Let the light of your joy and courage shine forth in all your deeds."
+  ],
+  "oath_spells_note": "Oath of the Ancients Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "ancients_oath_spells_3_2024",
+        "name": "Oath of the Ancients Spells (Level 3)",
+        "description": "Always have Speak with Animals, Ensnaring Strike prepared."
+      },
+      {
+        "id": "ancients_channel_divinity_natures_wrath_2024",
+        "name": "Channel Divinity: Nature_s Wrath",
+        "description": "As an action, you can use your Channel Divinity to invoke primeval forces to ensnare a foe. Choose one creature you can see within 10 feet of you. That creature must make a Strength saving throw. On a failed save, the creature is restrained by spectral vines for 1 minute. The restrained creature can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC. On a success, it frees itself."
+      }
+    ],
+    "5": [
+      {
+        "id": "ancients_oath_spells_5_2024",
+        "name": "Oath of the Ancients Spells (Level 5)",
+        "description": "Always have Moonbeam, Misty Step prepared."
+      }
+    ],
+    "7": [
+      {
+        "id": "ancients_aura_of_warding_2024",
+        "name": "Aura of Warding",
+        "description": "You and friendly creatures within 10 feet of you have resistance to damage from spells. At 18th level, the range of this aura increases to 30 feet."
+      },
+      {
+        "id": "ancients_oath_spells_7_2024",
+        "name": "Oath of the Ancients Spells (Level 7)",
+        "description": "Always have Plant Growth, Protection from Energy prepared."
+      }
+    ],
+    "9": [
+       {"id": "ancients_oath_spells_9_2024", "name": "Oath of the Ancients Spells (Level 9)", "description": "Always have Ice Storm, Stone Skin prepared."}
+    ],
+    "13": [
+      {"id": "ancients_oath_spells_13_2024", "name": "Oath of the Ancients Spells (Level 13)", "description": "Always have Commune with Nature, Tree Stride prepared."}
+    ],
+    "15": [
+      {
+        "id": "ancients_undying_sentinel_2024",
+        "name": "Undying Sentinel",
+        "description": "When you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can_t use it again until you finish a long rest. Additionally, you suffer none of the drawbacks of old age, and you can_t be aged magically."
+      }
+    ],
+    "17": [],
+    "20": [
+      {
+        "id": "ancients_elder_champion_2024",
+        "name": "Elder Champion",
+        "description": "As a bonus action, you can assume the form of an ancient force of nature for 1 minute. Benefits: Regain 10 HP at the start of your turns. Paladin spells with a casting time of 1 action can be cast as a bonus action. Enemies within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options. Once you use this feature, you can_t use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again."
+      }
+    ]
+  }
+}

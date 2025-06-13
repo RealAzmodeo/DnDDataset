@@ -147,5 +147,27 @@
       {"id": "spell_summon_celestial", "name": "Summon Celestial", "school": "Conjuration"}
     ]
   },
-  "source": "D&D Beyond Basic Rules 2024 - Paladin Class"
+  "source": "D&D Beyond Basic Rules 2024 - Paladin Class",
+  "subclasses": [
+    {
+      "id": "oath_of_devotion_2024",
+      "name": "Oath of Devotion",
+      "path_to_file": "data/classes/paladin/subclasses/oath_of_devotion.json"
+    },
+    {
+      "id": "oath_of_glory_2024",
+      "name": "Oath of Glory",
+      "path_to_file": "data/classes/paladin/subclasses/oath_of_glory.json"
+    },
+    {
+      "id": "oath_of_the_ancients_2024",
+      "name": "Oath of the Ancients",
+      "path_to_file": "data/classes/paladin/subclasses/oath_of_the_ancients.json"
+    },
+    {
+      "id": "oath_of_vengeance_2024",
+      "name": "Oath of Vengeance",
+      "path_to_file": "data/classes/paladin/subclasses/oath_of_vengeance.json"
+    }
+  ]
 }

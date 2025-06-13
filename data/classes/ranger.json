@@ -1,0 +1,244 @@
+{
+  "id": "ranger",
+  "name": "Ranger",
+  "source": "PHB 2024",
+  "description": "A martial warrior who combats threats on the edges of civilization, relying on unique combat styles, nature-based magic, and keen senses to track and defeat foes.",
+  "hit_die": "1d10",
+  "proficiencies": {
+    "armor": ["Light armor", "Medium armor", "Shields"],
+    "weapons": ["Simple weapons", "Martial weapons"],
+    "tools": [],
+    "saving_throws": ["Strength", "Dexterity"],
+    "skills": {
+      "choose": 3,
+      "options": [
+        "Animal Handling",
+        "Athletics",
+        "Insight",
+        "Investigation",
+        "Nature",
+        "Perception",
+        "Stealth",
+        "Survival"
+      ]
+    }
+  },
+  "starting_equipment": [
+    {
+      "option1": {
+        "item": "Scale Mail",
+        "quantity": 1
+      },
+      "option2": {
+        "item": "Leather Armor",
+        "quantity": 1
+      }
+    },
+    {
+      "option1": [
+        {
+          "item": "Shortsword",
+          "quantity": 2
+        }
+      ],
+      "option2": [
+        {
+          "item": "Simple Melee Weapon",
+          "quantity": 2,
+          "choice": "any simple melee"
+        }
+      ]
+    },
+    {
+      "option1": {
+        "item": "Dungeoneer's Pack",
+        "quantity": 1
+      },
+      "option2": {
+        "item": "Explorer's Pack",
+        "quantity": 1
+      }
+    },
+    {
+      "item": "Longbow",
+      "quantity": 1
+    },
+    {
+      "item": "Quiver with 20 Arrows",
+      "quantity": 1
+    }
+  ],
+  "spellcasting": {
+    "ability": "Wisdom",
+    "level": 1,
+    "preparation": "Prepared, can change one per long rest",
+    "spell_list_url": "TODO_ranger_spell_list.json",
+    "slots_by_level": {
+      "1": [2,0,0,0,0],
+      "2": [2,0,0,0,0],
+      "3": [3,0,0,0,0],
+      "4": [3,0,0,0,0],
+      "5": [4,2,0,0,0],
+      "6": [4,2,0,0,0],
+      "7": [4,3,0,0,0],
+      "8": [4,3,0,0,0],
+      "9": [4,3,2,0,0],
+      "10": [4,3,2,0,0],
+      "11": [4,3,3,0,0],
+      "12": [4,3,3,0,0],
+      "13": [4,3,3,1,0],
+      "14": [4,3,3,1,0],
+      "15": [4,3,3,2,0],
+      "16": [4,3,3,2,0],
+      "17": [4,3,3,3,1],
+      "18": [4,3,3,3,1],
+      "19": [4,3,3,3,2],
+      "20": [4,3,3,3,2]
+    }
+  },
+  "features_by_level": {
+    "1": [
+      {
+        "name": "Spellcasting",
+        "description": "You can cast ranger spells. You prepare a list of ranger spells that are available for you to cast, choosing from the ranger spell list. You use Wisdom as your spellcasting ability. You can change one prepared spell when you finish a long rest."
+      },
+      {
+        "name": "Favored Enemy",
+        "description": "You always have Hunter's Mark prepared, and it doesn't count against the number of spells you can prepare. You can cast Hunter's Mark without expending a spell slot a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+      },
+      {
+        "name": "Weapon Mastery",
+        "description": "You gain the Weapon Mastery feature. Choose two weapon masteries from the Weapon Mastery table for weapons you are proficient with. You can change one mastery when you gain a level in this class."
+      }
+    ],
+    "2": [
+      {
+        "name": "Deft Explorer",
+        "description": "You gain Expertise in one of your skill proficiencies. You also learn two additional languages of your choice."
+      },
+      {
+        "name": "Fighting Style",
+        "description": "You adopt a particular style of fighting as your specialty. Choose one Fighting Style feat. Alternatively, you can choose the Druidic Warrior feat (gain two cantrips from the druid spell list, using Wisdom as the spellcasting ability)."
+      }
+    ],
+    "3": [
+      {
+        "name": "Ranger Subclass",
+        "description": "You choose a Ranger Archetype that you emulate: Beast Master or Hunter, each of which is detailed at the end of the class description or in other sources. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+      }
+    ],
+    "4": [
+      {
+        "name": "Feat (Ability Score Improvement)",
+        "description": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Alternatively, you can choose a feat."
+      }
+    ],
+    "5": [
+      {
+        "name": "Extra Attack",
+        "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+      }
+    ],
+    "6": [
+      {
+        "name": "Roving",
+        "description": "Your speed increases by 10 feet. You also gain a climbing speed and a swimming speed equal to your walking speed. These benefits don't apply if you are wearing heavy armor."
+      }
+    ],
+    "7": [
+      {
+        "name": "Subclass Feature",
+        "description": "You gain a feature from your Ranger Archetype."
+      }
+    ],
+    "8": [
+      {
+        "name": "Feat (Ability Score Improvement)",
+        "description": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Alternatively, you can choose a feat."
+      }
+    ],
+    "9": [
+      {
+        "name": "Expertise",
+        "description": "Choose another of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency."
+      }
+    ],
+    "10": [
+      {
+        "name": "Tireless",
+        "description": "As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier. You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest. Additionally, when you finish a short or long rest, your exhaustion level, if any, is decreased by 1."
+      }
+    ],
+    "11": [
+      {
+        "name": "Subclass Feature",
+        "description": "You gain a feature from your Ranger Archetype."
+      }
+    ],
+    "12": [
+      {
+        "name": "Feat (Ability Score Improvement)",
+        "description": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Alternatively, you can choose a feat."
+      }
+    ],
+    "13": [
+      {
+        "name": "Relentless Hunter",
+        "description": "When you are concentrating on Hunter's Mark, you have advantage on saving throws you make to maintain your concentration on it."
+      }
+    ],
+    "14": [
+      {
+        "name": "Nature's Veil",
+        "description": "As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, until the end of your next turn, or until you attack, make a damage roll, cast a spell, or force a creature to make a saving throw. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+      }
+    ],
+    "15": [
+      {
+        "name": "Subclass Feature",
+        "description": "You gain a feature from your Ranger Archetype."
+      }
+    ],
+    "16": [
+      {
+        "name": "Feat (Ability Score Improvement)",
+        "description": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Alternatively, you can choose a feat."
+      }
+    ],
+    "17": [
+      {
+        "name": "Precise Hunter",
+        "description": "When you hit a creature with a weapon attack while your Hunter's Mark is on the target, you can choose to make the attack a critical hit. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+      }
+    ],
+    "18": [
+      {
+        "name": "Feral Senses",
+        "description": "You gain blindsight with a range of 30 feet."
+      }
+    ],
+    "19": [
+      {
+        "name": "Feat (Ability Score Improvement)",
+        "description": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Alternatively, you can choose a feat."
+      }
+    ],
+    "20": [
+      {
+        "name": "Foe Slayer",
+        "description": "When you cast Hunter's Mark, the extra damage dealt by the spell increases from 1d6 to 1d10."
+      }
+    ]
+  },
+  "subclass_title": "Ranger Archetype",
+  "subclasses": [
+    {
+      "name": "Beast Master",
+      "file": "beast_master.json"
+    },
+    {
+      "name": "Hunter",
+      "file": "hunter.json"
+    }
+  ]
+}

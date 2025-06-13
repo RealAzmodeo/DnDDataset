@@ -1,0 +1,100 @@
+{
+  "id": "beast_master",
+  "name": "Beast Master",
+  "source": "PHB 2024",
+  "page": "TODO",
+  "description": "You emulate the Beast Master archetype, forming a strong bond with a primal companion that fights alongside you.",
+  "features": [
+    {
+      "level": 3,
+      "name": "Primal Companion",
+      "description": "You gain a beast companion that accompanies you. It is a creature, not an object. It understands languages you speak. It takes its turn immediately after yours and can move and use its reaction on its own. Unless you take a Bonus Action to command it to take an action from its stat block (Beast's Strike, Dash, Disengage, Dodge, Help) or some other action, it takes the Dodge action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Beast's Strike action. If the beast dies, you can use a spell slot of 1st level or higher to revive it with all its hit points after 1 minute. You can also dismiss your beast at the end of a long rest and obtain a different one. If your beast is within 1 mile of you, you can summon it as an action to an unoccupied space within 30 feet of you. Your companion's statistics are detailed in the Primal Companion stat block, and you choose its form: Beast of the Land, Beast of the Sea, or Beast of the Sky, which determines some of its traits and actions.",
+      "primal_companion_stat_block": {
+        "ac": "13 + PB (your Proficiency Bonus)",
+        "hit_points": "5 + (5 times your ranger level)",
+        "senses": "Darkvision 60 ft.",
+        "languages": "Understands the languages you speak",
+        "proficiency_bonus": "Equals your bonus",
+        "skills": "Athletics +PB +2, Perception +PB +WIS mod, Stealth +PB",
+        "forms": [
+          {
+            "name": "Beast of the Land",
+            "speed": "40 ft., climb 40 ft.",
+            "traits": [
+              {
+                "name": "Charge",
+                "description": "If the beast moves at least 20 feet straight toward a target and then hits it with a Maul attack on the same turn, the target takes an extra 1d6 damage of the same type as the Maul. If the target is a creature, it must succeed on a Strength saving throw (DC = 10 + PB) or be knocked prone."
+              }
+            ],
+            "actions": [
+              {
+                "name": "Maul (Beast's Strike)",
+                "type": "Melee Weapon Attack",
+                "attack_bonus": "PB + WIS mod to hit",
+                "reach": "5 ft.",
+                "target": "one target",
+                "damage": "1d8 + PB slashing damage"
+              }
+            ]
+          },
+          {
+            "name": "Beast of the Sea",
+            "speed": "5 ft., swim 40 ft.",
+            "traits": [
+              {
+                "name": "Amphibious",
+                "description": "The beast can breathe air and water."
+              }
+            ],
+            "actions": [
+              {
+                "name": "Binding Strike (Beast's Strike)",
+                "type": "Melee Weapon Attack",
+                "attack_bonus": "PB + WIS mod to hit",
+                "reach": "5 ft.",
+                "target": "one target",
+                "damage": "1d6 + PB piercing or bludgeoning damage (your choice)",
+                "effect": "The target is grappled (escape DC = 10 + PB). Until this grapple ends, the beast can't use this attack on another target."
+              }
+            ]
+          },
+          {
+            "name": "Beast of the Sky",
+            "speed": "10 ft., fly 60 ft.",
+            "traits": [
+              {
+                "name": "Flyby",
+                "description": "The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+              }
+            ],
+            "actions": [
+              {
+                "name": "Shred (Beast's Strike)",
+                "type": "Melee Weapon Attack",
+                "attack_bonus": "PB + WIS mod to hit",
+                "reach": "5 ft.",
+                "target": "one target",
+                "damage": "1d4 + PB slashing damage"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "level": 7,
+      "name": "Exceptional Training",
+      "description": "Your primal companion's weapon attacks are considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. Additionally, your primal companion's attacks deal Force damage instead of their normal damage type."
+    },
+    {
+      "level": 11,
+      "name": "Bestial Fury",
+      "description": "When you command your primal companion to take the Beast's Strike action, the companion can make two Beast's Strikes. If you have Hunter's Mark cast on the target of these attacks, the companion also gains the benefit of the spell's extra damage on its attacks against that target."
+    },
+    {
+      "level": 15,
+      "name": "Share Spells",
+      "description": "When you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you and the spell could target the beast."
+    }
+  ]
+}

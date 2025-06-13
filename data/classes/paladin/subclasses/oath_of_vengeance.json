@@ -1,0 +1,68 @@
+{
+  "id": "oath_of_vengeance_2024",
+  "name": "Oath of Vengeance (Paladin Subclass - 2024)",
+  "class_id": "paladin_2024",
+  "description": "Paladins of the Oath of Vengeance are relentless hunters of the wicked, focusing on punishing transgressors with overwhelming force.",
+  "source": "RPGBOT 2024 Paladin Subclasses Guide (PHB)",
+  "tenets": [
+    "Fight the Greater Evil: Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.",
+    "No Mercy for the Wicked: Ordinary foes might win my mercy, but my sworn enemies do not.",
+    "By Any Means Necessary: My qualms can_t get in the way of exterminating my foes.",
+    "Restitution: If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds."
+  ],
+  "oath_spells_note": "Oath of Vengeance Spells are always prepared and do not count against the number of spells you can prepare each day.",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "vengeance_oath_spells_3_2024",
+        "name": "Oath of Vengeance Spells (Level 3)",
+        "description": "Always have Bane, Hunter_s Mark prepared."
+      },
+      {
+        "id": "vengeance_channel_divinity_vow_of_enmity_2024",
+        "name": "Channel Divinity: Vow of Enmity",
+        "description": "As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious."
+      }
+    ],
+    "5": [
+      {
+        "id": "vengeance_oath_spells_5_2024",
+        "name": "Oath of Vengeance Spells (Level 5)",
+        "description": "Always have Hold Person, Misty Step prepared."
+      }
+    ],
+    "7": [
+      {
+        "id": "vengeance_relentless_avenger_2024",
+        "name": "Relentless Avenger",
+        "description": "When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn_t provoke opportunity attacks."
+      },
+      {
+        "id": "vengeance_oath_spells_7_2024",
+        "name": "Oath of Vengeance Spells (Level 7)",
+        "description": "Always have Haste, Protection from Energy prepared."
+      }
+    ],
+    "9": [
+      {"id": "vengeance_oath_spells_9_2024", "name": "Oath of Vengeance Spells (Level 9)", "description": "Always have Banishment, Dimension Door prepared."}
+    ],
+    "13": [
+      {"id": "vengeance_oath_spells_13_2024", "name": "Oath of Vengeance Spells (Level 13)", "description": "Always have Hold Monster, Scrying prepared."}
+    ],
+    "15": [
+      {
+        "id": "vengeance_soul_of_vengeance_2024",
+        "name": "Soul of Vengeance",
+        "description": "When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range."
+      }
+    ],
+    "17": [],
+    "20": [
+      {
+        "id": "vengeance_avenging_angel_2024",
+        "name": "Avenging Angel",
+        "description": "As a bonus action, you can assume a form of an angelic avenger. For 1 hour, you gain: Wings sprout from your back granting a flying speed of 60 feet. You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against a frightened creature have advantage. Once you use this feature, you can_t use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again."
+      }
+    ]
+  }
+}

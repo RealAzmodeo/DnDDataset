@@ -1,1 +1,184 @@
-[]
+{
+  "class": "Ranger",
+  "source": "PHB 2024",
+  "levels": {
+    "1": [
+      {
+        "name": "Alarm",
+        "file": "alarm.json"
+      },
+      {
+        "name": "Animal Friendship",
+        "file": "animal_friendship.json"
+      },
+      {
+        "name": "Cure Wounds",
+        "file": "cure_wounds.json"
+      },
+      {
+        "name": "Detect Magic",
+        "file": "detect_magic.json"
+      },
+      {
+        "name": "Detect Poison and Disease",
+        "file": "detect_poison_and_disease.json"
+      },
+      {
+        "name": "Ensnaring Strike",
+        "file": "ensnaring_strike.json"
+      },
+      {
+        "name": "Entangle",
+        "file": "entangle.json"
+      },
+      {
+        "name": "Fog Cloud",
+        "file": "fog_cloud.json"
+      },
+      {
+        "name": "Goodberry",
+        "file": "goodberry.json"
+      },
+      {
+        "name": "Hunter's Mark",
+        "file": "hunters_mark.json"
+      },
+      {
+        "name": "Jump",
+        "file": "jump.json"
+      },
+      {
+        "name": "Longstrider",
+        "file": "longstrider.json"
+      }
+    ],
+    "2": [
+      {
+        "name": "Animal Messenger",
+        "file": "animal_messenger.json"
+      },
+      {
+        "name": "Barkskin",
+        "file": "barkskin.json"
+      },
+      {
+        "name": "Darkvision",
+        "file": "darkvision.json"
+      },
+      {
+        "name": "Find Traps",
+        "file": "find_traps.json"
+      },
+      {
+        "name": "Lesser Restoration",
+        "file": "lesser_restoration.json"
+      },
+      {
+        "name": "Locate Animals or Plants",
+        "file": "locate_animals_or_plants.json"
+      },
+      {
+        "name": "Locate Object",
+        "file": "locate_object.json"
+      },
+      {
+        "name": "Magic Weapon",
+        "file": "magic_weapon.json"
+      },
+      {
+        "name": "Pass without Trace",
+        "file": "pass_without_trace.json"
+      },
+      {
+        "name": "Protection from Poison",
+        "file": "protection_from_poison.json"
+      },
+      {
+        "name": "Silence",
+        "file": "silence.json"
+      },
+      {
+        "name": "Spike Growth",
+        "file": "spike_growth.json"
+      }
+    ],
+    "3": [
+      {
+        "name": "Conjure Animals",
+        "file": "conjure_animals.json"
+      },
+      {
+        "name": "Daylight",
+        "file": "daylight.json"
+      },
+      {
+        "name": "Dispel Magic",
+        "file": "dispel_magic.json"
+      },
+      {
+        "name": "Meld into Stone",
+        "file": "meld_into_stone.json"
+      },
+      {
+        "name": "Plant Growth",
+        "file": "plant_growth.json"
+      },
+      {
+        "name": "Protection from Energy",
+        "file": "protection_from_energy.json"
+      },
+      {
+        "name": "Revivify",
+        "file": "revivify.json"
+      },
+      {
+        "name": "Water Breathing",
+        "file": "water_breathing.json"
+      },
+      {
+        "name": "Water Walk",
+        "file": "water_walk.json"
+      },
+      {
+        "name": "Wind Wall",
+        "file": "wind_wall.json"
+      }
+    ],
+    "4": [
+      {
+        "name": "Conjure Woodland Beings",
+        "file": "conjure_woodland_beings.json"
+      },
+      {
+        "name": "Dominate Beast",
+        "file": "dominate_beast.json"
+      },
+      {
+        "name": "Freedom of Movement",
+        "file": "freedom_of_movement.json"
+      },
+      {
+        "name": "Locate Creature",
+        "file": "locate_creature.json"
+      },
+      {
+        "name": "Stoneskin",
+        "file": "stoneskin.json"
+      }
+    ],
+    "5": [
+      {
+        "name": "Commune with Nature",
+        "file": "commune_with_nature.json"
+      },
+      {
+        "name": "Greater Restoration",
+        "file": "greater_restoration.json"
+      },
+      {
+        "name": "Tree Stride",
+        "file": "tree_stride.json"
+      }
+    ]
+  }
+}

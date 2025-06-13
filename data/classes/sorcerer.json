@@ -1,0 +1,40 @@
+{
+  "id": "sorcerer",
+  "name": "Sorcerer",
+  "source": "PHB 2024",
+  "description": "Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces.",
+  "hit_die": "1d6",
+  "proficiencies": {
+    "armor": [],
+    "weapons": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+    "tools": [],
+    "saving_throws": ["Constitution", "Charisma"],
+    "skills": {
+      "choose": 2,
+      "options": ["Arcana", "Deception", "Insight", "Intimidation", "Persuasion", "Religion"]
+    }
+  },
+  "spellcasting": {
+    "ability": "Charisma",
+    "level": 1,
+    "preparation": "Spells Known",
+    "spell_list_url": "TODO_sorcerer_spell_list.json"
+  },
+  "subclass_title": "Sorcerous Origin",
+  "subclasses": [
+    {
+      "name": "Draconic Sorcery",
+      "file": "draconic_sorcery.json"
+    },
+    {
+      "name": "Wild Magic",
+      "file": "wild_magic.json"
+    }
+  ],
+  "features_by_level": {
+    "1": [
+      {"name": "Spellcasting", "description": "Your arcane magic depends on your ability to project your will into the world. Charisma is your spellcasting ability for your sorcerer spells."},
+      {"name": "Sorcerous Origin", "description": "Choose a sorcerous origin, which describes the source of your innate magical power."}
+    ]
+  }
+}

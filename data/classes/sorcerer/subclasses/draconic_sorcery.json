@@ -1,0 +1,83 @@
+{
+  "id": "draconic_sorcery",
+  "name": "Draconic Sorcery",
+  "source": "PHB 2024",
+  "page": "TODO",
+  "description": "Your innate magic comes from draconic power that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a potent dragon's blessing or curse.",
+  "features": [
+    {
+      "level": 3,
+      "name": "Draconic Resilience",
+      "description": "Your hit point maximum increases by 3. Thereafter, your hit point maximum increases by an additional 1 hit point whenever you gain a level in this class. Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren’t wearing armor, your AC equals 13 + your Dexterity modifier."
+    },
+    {
+      "level": 3,
+      "name": "Draconic Spells",
+      "description": "You learn additional spells when you reach certain levels in this class, as shown below. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an Abjuration or a Transmutation spell from the sorcerer, warlock, or wizard spell list.",
+      "additional_spells": [
+        {
+          "sorcerer_level": 3,
+          "spells": [
+            {"name": "Chromatic Orb", "file": "chromatic_orb.json"},
+            {"name": "Command", "file": "command.json"}
+          ]
+        },
+        {
+          "sorcerer_level": 5,
+          "spells": [
+            {"name": "Alter Self", "file": "alter_self.json"},
+            {"name": "Dragon's Breath", "file": "dragons_breath.json"}
+          ]
+        },
+        {
+          "sorcerer_level": 7,
+          "spells": [
+            {"name": "Fear", "file": "fear.json"},
+            {"name": "Fly", "file": "fly.json"}
+          ]
+        },
+        {
+          "sorcerer_level": 9,
+          "spells": [
+            {"name": "Arcane Eye", "file": "arcane_eye.json"},
+            {"name": "Charm Monster", "file": "charm_monster.json"}
+          ]
+        },
+        {
+          "sorcerer_level": 11,
+          "spells": [
+            {"name": "Legend Lore", "file": "legend_lore.json"},
+            {"name": "Summon Dragon", "file": "summon_dragon.json"}
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Elemental Affinity",
+      "description": "Choose one type of dragon from the Draconic Ancestry table. The damage type associated with that dragon is used by other features you gain. When you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. You also gain Resistance to that damage type.",
+      "draconic_ancestry_table": [
+        {"dragon": "Black", "damage_type": "Acid"},
+        {"dragon": "Blue", "damage_type": "Lightning"},
+        {"dragon": "Brass", "damage_type": "Fire"},
+        {"dragon": "Bronze", "damage_type": "Lightning"},
+        {"dragon": "Copper", "damage_type": "Acid"},
+        {"dragon": "Gold", "damage_type": "Fire"},
+        {"dragon": "Green", "damage_type": "Poison"},
+        {"dragon": "Red", "damage_type": "Fire"},
+        {"dragon": "Silver", "damage_type": "Cold"},
+        {"dragon": "White", "damage_type": "Cold"}
+      ]
+    },
+    {
+      "level": 14,
+      "name": "Dragon Wings",
+      "description": "You gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. You can’t manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them."
+    },
+    {
+      "level": 18,
+      "name": "Dragon Companion",
+      "description": "You can cast Summon Dragon once without expending a spell slot. When you cast Summon Dragon this way, the spirit you summon is a Dragon (instead of a Celestial, Fey, or Fiend), and the spell doesn’t require your concentration. You regain the ability to cast the spell in this way when you finish a long rest."
+    }
+  ]
+}

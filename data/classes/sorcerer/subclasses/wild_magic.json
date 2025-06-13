@@ -1,0 +1,35 @@
+{
+  "id": "wild_magic",
+  "name": "Wild Magic",
+  "source": "PHB 2024",
+  "page": "TODO",
+  "description": "Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason.",
+  "features": [
+    {
+      "level": 3,
+      "name": "Wild Magic Surge",
+      "description": "When you cast a sorcerer spell of 1st level or higher, if you expended a spell slot to cast it, roll a d20. On a roll of 1, roll on the Wild Magic Surge table to create a random magical effect. A Wild Magic Surge table is typically found in the Player's Handbook.",
+      "wild_magic_surge_table_reference": "Player's Handbook, Chapter 3: Classes, Sorcerer, Wild Magic Surge table. For this project, a separate file like 'wild_magic_surge_table.json' could be created if full table data is needed."
+    },
+    {
+      "level": 3,
+      "name": "Tides of Chaos",
+      "description": "You can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again. Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher that you expended a spell slot for. You then regain the use of this feature."
+    },
+    {
+      "level": 6,
+      "name": "Bend Luck",
+      "description": "When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur."
+    },
+    {
+      "level": 14,
+      "name": "Controlled Chaos",
+      "description": "Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number."
+    },
+    {
+      "level": 18,
+      "name": "Tamed Surge",
+      "description": "When you roll on the Wild Magic Surge table, you can choose to trigger one of the following effects instead of the result you rolled. You can use this feature once per long rest.\n- Arcane Burst: Each creature within 10 feet of you takes 3d6 force damage.\n- Restorative Surge: You regain 2d10 hit points.\n- Teleport: You teleport up to 30 feet to an unoccupied space you can see."
+    }
+  ]
+}

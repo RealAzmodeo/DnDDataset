@@ -72,7 +72,7 @@
     "ability": "Wisdom",
     "level": 1,
     "preparation": "Prepared, can change one per long rest",
-    "spell_list_url": "TODO_ranger_spell_list.json",
+    "spell_list_url": "ranger_spell_list.json",
     "slots_by_level": {
       "1": [2,0,0,0,0],
       "2": [2,0,0,0,0],

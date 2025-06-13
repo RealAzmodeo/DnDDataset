@@ -1,0 +1,35 @@
+{
+  "id": "college_of_dance_2024",
+  "name": "College of Dance (Bard Subclass - 2024)",
+  "class_id": "bard_2024",
+  "description": "Bards of the College of Dance weave magic and movement, enhancing their AC, unarmed strikes, and inspiring allies through dazzling performances.",
+  "source": "RPGBOT 2024 College of Dance Bard Subclass Guide (PHB)",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "dance_dazzling_footwork_2024",
+        "name": "Dazzling Footwork",
+        "description": "You gain four benefits: Permanent Advantage on Performance checks involving dancing. Add Charisma modifier to AC when not wearing medium/heavy armor or shield. When a creature uses your Bardic Inspiration die, they can also add the roll to the damage of their next weapon attack or unarmed strike within 1 minute. Your unarmed strikes can use Dexterity for attack/damage and deal damage equal to your Bardic Inspiration die; when you use Attack action for unarmed strike, can make one as a bonus action."
+      }
+    ],
+    "6": [
+      {
+        "id": "dance_inspiring_movement_2024",
+        "name": "Inspiring Movement",
+        "description": "When a creature uses one of your Bardic Inspiration dice, you can use your reaction to move up to your speed without provoking opportunity attacks. If you end this move within 5 feet of a creature, you can make one unarmed strike against it."
+      },
+      {
+        "id": "dance_tandem_footwork_2024",
+        "name": "Tandem Footwork",
+        "description": "When you roll initiative, you can expend one Bardic Inspiration die, roll it, and grant that many allies (up to your proficiency bonus) who can see or hear you a bonus to their initiative equal to the number rolled."
+      }
+    ],
+    "14": [
+      {
+        "id": "dance_leading_evasion_2024",
+        "name": "Leading Evasion",
+        "description": "When you or an ally within 30 feet that can see or hear you is subjected to an effect that allows a Dexterity saving throw for half damage, you can use your reaction to grant that creature the benefits of Evasion (no damage on success, half damage on failure)."
+      }
+    ]
+  }
+}

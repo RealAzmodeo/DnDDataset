@@ -1,0 +1,37 @@
+{
+  "id": "path_of_the_world_tree_2024",
+  "name": "Path of the World Tree (Barbarian Subclass - 2024)",
+  "class_id": "barbarian_2024",
+  "description": "Path of the World Tree Barbarians channel the world tree Yggdrasil to protect allies and control enemies with extended reach and teleportation.",
+  "source": "RPGBOT 2024 Path of the World Tree Barbarian Subclass Guide (PHB)",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "world_tree_vitality_of_the_tree_2024",
+        "name": "Vitality of the Tree",
+        "description": "You gain two benefits: Vitality Surge (When you enter Rage, gain temporary HP equal to your Barbarian level) and Life-Giving Force (At the start of your turn while Raging, choose one ally within 10 feet. That ally gains temporary HP equal to 1d12 + your Constitution modifier. These temporary HP last until your Rage ends)."
+      }
+    ],
+    "6": [
+      {
+        "id": "world_tree_branches_of_the_tree_2024",
+        "name": "Branches of the Tree",
+        "description": "As a reaction when a creature starts its turn within 30 feet of you, you can force it to make a Strength saving throw (DC 8 + proficiency bonus + Strength modifier). On a failed save, you teleport the creature to an unoccupied space adjacent to you, and you can choose to reduce its speed to 0 until the end of its current turn. This can be used on willing allies (who can choose to fail the save) to teleport them safely."
+      }
+    ],
+    "10": [
+      {
+        "id": "world_tree_battering_roots_2024",
+        "name": "Battering Roots",
+        "description": "While Raging, your reach on your turn with melee attacks using Heavy or Versatile weapons increases by 10 feet. When you hit with such a weapon on your turn, you can apply the Push or Topple mastery property to that attack in addition to any other mastery property the weapon might have."
+      }
+    ],
+    "14": [
+      {
+        "id": "world_tree_travel_along_the_tree_2024",
+        "name": "Travel Along the Tree",
+        "description": "While Raging, you can use a bonus action to teleport up to 60 feet to an unoccupied space you can see. This can be used as part of the Bonus Action to activate Rage. Additionally, once per Rage, you can use this feature to teleport yourself and up to six willing creatures within 30 feet of you to an unoccupied space you can see within 150 feet."
+      }
+    ]
+  }
+}

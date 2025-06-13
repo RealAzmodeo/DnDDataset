@@ -1,0 +1,42 @@
+{
+  "id": "path_of_the_wild_heart_2024",
+  "name": "Path of the Wild Heart (Barbarian Subclass - 2024)",
+  "class_id": "barbarian_2024",
+  "description": "Path of the Wild Heart Barbarians draw on animal-themed abilities, choosing different aspects to customize their rage and other features.",
+  "source": "RPGBOT 2024 Barbarian Subclasses Guide (PHB)",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "wild_heart_animal_speaker_2024",
+        "name": "Animal Speaker",
+        "description": "You can cast the Speak with Animals spell."
+      },
+      {
+        "id": "wild_heart_rage_of_the_wilds_2024",
+        "name": "Rage of the Wilds",
+        "description": "When you Rage, you choose one of the following animal aspects to gain its benefits: Bear (resistance to most damage types except psychic), Eagle (Dash as a bonus action, opportunity attacks against you have disadvantage), or Wolf (allies have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you)."
+      }
+    ],
+    "6": [
+      {
+        "id": "wild_heart_aspect_of_the_wilds_2024",
+        "name": "Aspect of the Wilds",
+        "description": "When you finish a Long Rest, choose one of the following animal aspects to gain its benefits until your next Long Rest: Owl (Darkvision 120ft, advantage on Wisdom (Perception) checks relying on sight in dim light/darkness), Panther (gain a climbing speed equal to your walking speed, and you can make a running long jump or a running high jump after moving only 5 feet on foot), or Salmon (gain a swimming speed equal to your walking speed, and you can breathe underwater)."
+      }
+    ],
+    "10": [
+      {
+        "id": "wild_heart_nature_speaker_2024",
+        "name": "Nature Speaker",
+        "description": "You can cast the Commune with Nature spell as a ritual."
+      }
+    ],
+    "14": [
+      {
+        "id": "wild_heart_power_of_the_wilds_2024",
+        "name": "Power of the Wilds",
+        "description": "When you Rage, you choose one of the following animal aspects (can be different from Rage of the Wilds choice): Falcon (gain a flying speed equal to your walking speed), Lion (as a bonus action, you can let out a menacing roar; each creature of your choice within 30 feet that can hear you must succeed on a Wisdom saving throw (DC 8 + prof bonus + Cha mod) or become frightened of you for 1 minute; affected creatures can repeat save at end of each of their turns), or Ram (when you hit a Large or smaller creature with a melee weapon attack, you can knock it prone if it fails a Strength saving throw (DC 8 + prof bonus + Str mod))."
+      }
+    ]
+  }
+}

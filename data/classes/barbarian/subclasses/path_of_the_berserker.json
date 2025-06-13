@@ -1,0 +1,37 @@
+{
+  "id": "path_of_the_berserker_2024",
+  "name": "Path of the Berserker (Barbarian Subclass - 2024)",
+  "class_id": "barbarian_2024",
+  "description": "Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence, thrilling in the chaos of battle.",
+  "source": "D&D Beyond Basic Rules 2024 - Barbarian Class",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "berserker_frenzy_2024",
+        "name": "Frenzy",
+        "description": "If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
+      }
+    ],
+    "6": [
+      {
+        "id": "berserker_mindless_rage_2024",
+        "name": "Mindless Rage",
+        "description": "You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you’re Charmed or Frightened when you enter your Rage, the condition ends on you."
+      }
+    ],
+    "10": [
+      {
+        "id": "berserker_retaliation_2024",
+        "name": "Retaliation",
+        "description": "When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike."
+      }
+    ],
+    "14": [
+      {
+        "id": "berserker_intimidating_presence_2024",
+        "name": "Intimidating Presence",
+        "description": "As a Bonus Action, you can strike terror into others. Each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 + your Strength modifier + Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature’s turns, the creature repeats the save, ending the effect on itself on a success. Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it."
+      }
+    ]
+  }
+}

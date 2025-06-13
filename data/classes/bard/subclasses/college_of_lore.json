@@ -1,0 +1,35 @@
+{
+  "id": "college_of_lore_2024",
+  "name": "College of Lore (Bard Subclass - 2024)",
+  "class_id": "bard_2024",
+  "description": "Bards of the College of Lore collect spells and secrets from diverse sources, sharing their knowledge and exposing corruption.",
+  "source": "D&D Beyond Basic Rules 2024 - Bard Class",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "lore_bonus_proficiencies_2024",
+        "name": "Bonus Proficiencies",
+        "description": "You gain proficiency with three skills of your choice."
+      },
+      {
+        "id": "lore_cutting_words_2024",
+        "name": "Cutting Words",
+        "description": "When a creature you can see within 60 feet makes a damage roll, or succeeds on an ability check or attack roll, you can use your Reaction to expend one use of Bardic Inspiration. Roll your Bardic Inspiration die and subtract the number rolled from the creature_s roll, potentially turning success into failure or reducing damage."
+      }
+    ],
+    "6": [
+      {
+        "id": "lore_magical_discoveries_2024",
+        "name": "Magical Discoveries",
+        "description": "You learn two spells of your choice from the Cleric, Druid, or Wizard spell list (or any combination). A spell must be a cantrip or a spell for which you have spell slots. These spells count as Bard spells for you and are always prepared (don_t count against prepared spells limit). You can replace one with another eligible spell when you gain a Bard level."
+      }
+    ],
+    "14": [
+      {
+        "id": "lore_peerless_skill_2024",
+        "name": "Peerless Skill",
+        "description": "When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die and add the number to the d20, potentially turning failure into success. On a failure, the Bardic Inspiration die is not expended."
+      }
+    ]
+  }
+}

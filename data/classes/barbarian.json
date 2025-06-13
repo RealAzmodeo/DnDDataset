@@ -1,0 +1,118 @@
+{
+  "id": "barbarian_2024",
+  "name": "Barbarian (2024)",
+  "description": "Barbarians are mighty warriors powered by primal forces manifesting as Rage, fueling battle prowess, uncanny reflexes, and heightened senses.",
+  "hit_die": "d12",
+  "primary_ability": ["Strength"],
+  "proficiencies": {
+    "armor": ["Light armor", "Medium armor", "Shields"],
+    "weapons": ["Simple weapons", "Martial weapons"],
+    "tools": ["None"],
+    "saving_throws": ["Strength", "Constitution"],
+    "skills": {
+      "choose": 2,
+      "from": ["Animal Handling", "Athletics", "Intimidation", "Nature", "Perception", "Survival"]
+    }
+  },
+  "starting_equipment_options": [
+    "(A) Greataxe, 4 Handaxes, Explorer’s Pack, and 15 GP",
+    "(B) 75 GP"
+  ],
+  "features_by_level": {
+    "1": [
+      {"id": "barbarian_rage_2024", "name": "Rage", "description": "As a Bonus Action (if not wearing Heavy armor), enter a Rage. Benefits: Resistance to Bludgeoning, Piercing, Slashing damage; Bonus Rage Damage on Str-based attacks; Advantage on Str checks & saves; Can_t concentrate or cast spells. Duration: Ends end of next turn, extends by attacking, forcing save, or Bonus Action to extend (max 10 min). Uses per Long Rest (regain 1 on Short Rest): 2 (L1), 3 (L4), 4 (L6), 5 (L12), 6 (L17)."},
+      {"id": "barbarian_unarmored_defense_2024", "name": "Unarmored Defense", "description": "While not wearing armor, AC = 10 + Dex mod + Con mod. Can use a Shield."},
+      {"id": "barbarian_weapon_mastery_1_2024", "name": "Weapon Mastery (Level 1)", "description": "Use mastery properties of 2 kinds of Simple/Martial Melee weapons. Change one on Long Rest. (Weapon Mastery column in table: L1=2, L4=2, L10=3, L16=4)."}
+    ],
+    "2": [
+      {"id": "barbarian_danger_sense_2024", "name": "Danger Sense", "description": "Advantage on Dexterity saving throws if not Incapacitated."},
+      {"id": "barbarian_reckless_attack_2024", "name": "Reckless Attack", "description": "On first Str-based attack roll on turn, can attack recklessly for Advantage on Str-based attack rolls this turn; attack rolls against you have Advantage until your next turn."}
+    ],
+    "3": [
+      {"id": "barbarian_subclass_2024", "name": "Barbarian Subclass", "description": "Gain a Barbarian subclass. (Path of the Berserker detailed in Basic Rules)."},
+      {"id": "barbarian_primal_knowledge_2024", "name": "Primal Knowledge", "description": "Gain proficiency in another skill from Barbarian list. While Raging, can use Strength for Acrobatics, Intimidation, Perception, Stealth, or Survival checks."}
+    ],
+    "4": [
+      {"id": "barbarian_asi_4_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "5": [
+      {"id": "barbarian_extra_attack_2024", "name": "Extra Attack", "description": "Attack twice when taking Attack action."},
+      {"id": "barbarian_fast_movement_2024", "name": "Fast Movement", "description": "Speed increases by 10 feet while not wearing Heavy armor."}
+    ],
+    "6": [
+      {"id": "barbarian_subclass_feature_6_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "7": [
+      {"id": "barbarian_feral_instinct_2024", "name": "Feral Instinct", "description": "Advantage on Initiative rolls."},
+      {"id": "barbarian_instinctive_pounce_2024", "name": "Instinctive Pounce", "description": "As part of Bonus Action to enter Rage, can move up to half your Speed."}
+    ],
+    "8": [
+      {"id": "barbarian_asi_8_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "9": [
+      {"id": "barbarian_brutal_strike_2024", "name": "Brutal Strike", "description": "If using Reckless Attack, can forgo Advantage on one Str-based attack. If hits, target takes extra 1d10 damage (weapon type) and choose effect: Forceful Blow (push 15ft, can move half speed towards target) or Hamstring Blow (target speed -15ft until your next turn)."}
+    ],
+    "10": [
+      {"id": "barbarian_subclass_feature_10_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "11": [
+      {"id": "barbarian_relentless_rage_2024", "name": "Relentless Rage", "description": "If drop to 0 HP while Raging (not killed outright), make Con save (DC 10, +5 each use after first, resets on rest) to drop to HP = 2x Barbarian level instead."}
+    ],
+    "12": [
+      {"id": "barbarian_asi_12_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "13": [
+      {"id": "barbarian_improved_brutal_strike_13_2024", "name": "Improved Brutal Strike (Level 13)", "description": "New Brutal Strike options: Staggering Blow (target has Disadvantage on next save, no Opportunity Attacks until your next turn), Sundering Blow (next attack roll by another creature against target gets +5 bonus)."}
+    ],
+    "14": [
+      {"id": "barbarian_subclass_feature_14_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "15": [
+      {"id": "barbarian_persistent_rage_2024", "name": "Persistent Rage", "description": "When rolling Initiative, can regain all expended uses of Rage (once per Long Rest). Rage now lasts 10 minutes without needing to extend it; ends if Unconscious or don Heavy Armor."}
+    ],
+    "16": [
+      {"id": "barbarian_asi_16_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "17": [
+      {"id": "barbarian_improved_brutal_strike_17_2024", "name": "Improved Brutal Strike (Level 17)", "description": "Brutal Strike extra damage increases to 2d10. Can use two different Brutal Strike effects."}
+    ],
+    "18": [
+      {"id": "barbarian_indomitable_might_2024", "name": "Indomitable Might", "description": "If total for Str check or save is less than Str score, can use Str score instead."}
+    ],
+    "19": [
+      {"id": "barbarian_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of Irresistible Offense recommended)."}
+    ],
+    "20": [
+      {"id": "barbarian_primal_champion_2024", "name": "Primal Champion", "description": "Strength and Constitution scores increase by 4 (max 25)."}
+    ]
+  },
+  "rage_progression": {
+    "rages_per_long_rest": {"1": 2, "4": 3, "6": 4, "12": 5, "17": 6},
+    "rage_damage_bonus": {"1": "+2", "9": "+3", "16": "+4"}
+  },
+  "weapon_mastery_progression": {"1": 2, "10": 3, "16": 4},
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Rages", "Rage Damage", "Weapon Mastery"],
+  "source": "D&D Beyond Basic Rules 2024 - Barbarian Class",
+  "subclasses": [
+    {
+      "id": "path_of_the_berserker_2024",
+      "name": "Path of the Berserker",
+      "path_to_file": "data/classes/barbarian/subclasses/path_of_the_berserker.json"
+    },
+    {
+      "id": "path_of_the_wild_heart_2024",
+      "name": "Path of the Wild Heart",
+      "path_to_file": "data/classes/barbarian/subclasses/path_of_the_wild_heart.json"
+    },
+    {
+      "id": "path_of_the_zealot_2024",
+      "name": "Path of the Zealot",
+      "path_to_file": "data/classes/barbarian/subclasses/path_of_the_zealot.json"
+    },
+    {
+      "id": "path_of_the_world_tree_2024",
+      "name": "Path of the World Tree",
+      "path_to_file": "data/classes/barbarian/subclasses/path_of_the_world_tree.json"
+    }
+  ]
+}

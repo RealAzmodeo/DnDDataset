@@ -1,0 +1,246 @@
+{
+  "id": "bard_2024",
+  "name": "Bard (2024)",
+  "description": "Bards invoke magic through music, dance, and verse, excelling at inspiring allies, healing, beguiling foes, and creating illusions.",
+  "hit_die": "d8",
+  "primary_ability": ["Charisma"],
+  "proficiencies": {
+    "armor": ["Light armor"],
+    "weapons": ["Simple weapons"],
+    "tools": ["Choose 3 Musical Instruments"],
+    "saving_throws": ["Dexterity", "Charisma"],
+    "skills": {
+      "choose": 3,
+      "from": "any"
+    }
+  },
+  "starting_equipment_options": [
+    "(A) Leather Armor, 2 Daggers, Musical Instrument of your choice, Entertainer’s Pack, and 19 GP",
+    "(B) 90 GP"
+  ],
+  "spellcasting_ability": "Charisma",
+  "spell_slots_and_prepared_spells_progression_note": "Refer to Bard Features table in source for Cantrips Known, Prepared Spells, and Spell Slots per Level.",
+  "features_by_level": {
+    "1": [
+      {"id": "bard_bardic_inspiration_2024", "name": "Bardic Inspiration", "description": "Inspire others via words/music/dance. Bonus Action, target creature within 60ft (can see/hear you) gains Bardic Inspiration die (d6). Once within 1 hour, on failed D20 Test, creature can roll die and add to d20. Uses = Cha mod (min 1) per Long Rest. Die becomes d8 at L5, d10 at L10, d12 at L15."},
+      {"id": "bard_spellcasting_2024", "name": "Spellcasting", "description": "Access to Bard spell list. Start with 2 cantrips and 4 prepared 1st-level spells. Charisma is spellcasting ability. Can use Musical Instrument as focus."}
+    ],
+    "2": [
+      {"id": "bard_expertise_1_2024", "name": "Expertise (Level 2)", "description": "Gain Expertise in two skill proficiencies. (Performance & Persuasion recommended)."},
+      {"id": "bard_jack_of_all_trades_2024", "name": "Jack of All Trades", "description": "Add half Proficiency Bonus (round down) to any ability check using a skill proficiency you lack and that doesn’t otherwise use Proficiency Bonus."}
+    ],
+    "3": [
+      {"id": "bard_subclass_2024", "name": "Bard Subclass", "description": "Gain a Bard subclass. (College of Lore detailed in Basic Rules)."}
+    ],
+    "4": [
+      {"id": "bard_asi_4_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat. Learns 1 additional cantrip."}
+    ],
+    "5": [
+      {"id": "bard_font_of_inspiration_2024", "name": "Font of Inspiration", "description": "Regain all expended uses of Bardic Inspiration on Short or Long Rest. Can expend a spell slot to regain one Bardic Inspiration use."}
+    ],
+    "6": [
+      {"id": "bard_subclass_feature_6_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "7": [
+      {"id": "bard_countercharm_2024", "name": "Countercharm", "description": "If you or creature within 30ft fails save vs Charmed/Frightened, use Reaction to cause save reroll with Advantage."}
+    ],
+    "8": [
+      {"id": "bard_asi_8_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "9": [
+      {"id": "bard_expertise_9_2024", "name": "Expertise (Level 9)", "description": "Gain Expertise in two more skill proficiencies."}
+    ],
+    "10": [
+      {"id": "bard_magical_secrets_2024", "name": "Magical Secrets", "description": "When Prepared Spells number increases, can choose new prepared spells from Bard, Cleric, Druid, or Wizard lists; they count as Bard spells. Learns 1 additional cantrip."},
+      {"id": "bard_bardic_die_d10_2024", "name": "Bardic Inspiration (d10)", "description": "Your Bardic Inspiration die becomes a d10."}
+    ],
+    "11": [],
+    "12": [
+      {"id": "bard_asi_12_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "13": [],
+    "14": [
+      {"id": "bard_subclass_feature_14_2024", "name": "Subclass Feature", "description": "Gain subclass feature."}
+    ],
+    "15": [
+       {"id": "bard_bardic_die_d12_2024", "name": "Bardic Inspiration (d12)", "description": "Your Bardic Inspiration die becomes a d12."}
+    ],
+    "16": [
+      {"id": "bard_asi_16_2024", "name": "Ability Score Improvement", "description": "Gain Ability Score Improvement feat or other feat."}
+    ],
+    "17": [],
+    "18": [
+      {"id": "bard_superior_inspiration_2024", "name": "Superior Inspiration", "description": "When rolling Initiative, if you have fewer than two uses of Bardic Inspiration, regain uses until you have two."}
+    ],
+    "19": [
+      {"id": "bard_epic_boon_2024", "name": "Epic Boon", "description": "Gain an Epic Boon feat or other feat. (Boon of Spell Recall recommended)."}
+    ],
+    "20": [
+      {"id": "bard_words_of_creation_2024", "name": "Words of Creation", "description": "Always have Power Word Heal and Power Word Kill prepared. When casting either, can target a second creature within 10ft of the first."}
+    ]
+  },
+  "progression_table_fields": ["Level", "Proficiency Bonus", "Class Features", "Bardic Die", "Cantrips", "Prepared Spells", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th"],
+  "spell_list": {
+    "cantrips": [
+      {"id": "spell_blade_ward", "name": "Blade Ward", "school": "Abjuration"},
+      {"id": "spell_dancing_lights", "name": "Dancing Lights", "school": "Illusion"},
+      {"id": "spell_friends", "name": "Friends", "school": "Enchantment"},
+      {"id": "spell_light", "name": "Light", "school": "Evocation"},
+      {"id": "spell_mage_hand", "name": "Mage Hand", "school": "Conjuration"},
+      {"id": "spell_mending", "name": "Mending", "school": "Transmutation"},
+      {"id": "spell_message", "name": "Message", "school": "Transmutation"},
+      {"id": "spell_minor_illusion", "name": "Minor Illusion", "school": "Illusion"},
+      {"id": "spell_prestidigitation", "name": "Prestidigitation", "school": "Transmutation"},
+      {"id": "spell_starry_wisp", "name": "Starry Wisp", "school": "Evocation"},
+      {"id": "spell_thunderclap", "name": "Thunderclap", "school": "Evocation"},
+      {"id": "spell_true_strike", "name": "True Strike", "school": "Divination"},
+      {"id": "spell_vicious_mockery", "name": "Vicious Mockery", "school": "Enchantment"}
+    ],
+    "level_1": [
+      {"id": "spell_animal_friendship", "name": "Animal Friendship", "school": "Enchantment"},
+      {"id": "spell_bane", "name": "Bane", "school": "Enchantment"},
+      {"id": "spell_charm_person", "name": "Charm Person", "school": "Enchantment"},
+      {"id": "spell_color_spray", "name": "Color Spray", "school": "Illusion"},
+      {"id": "spell_command", "name": "Command", "school": "Enchantment"},
+      {"id": "spell_comprehend_languages", "name": "Comprehend Languages", "school": "Divination", "ritual": true},
+      {"id": "spell_cure_wounds", "name": "Cure Wounds", "school": "Abjuration"},
+      {"id": "spell_detect_magic", "name": "Detect Magic", "school": "Divination", "ritual": true},
+      {"id": "spell_disguise_self", "name": "Disguise Self", "school": "Illusion"},
+      {"id": "spell_dissonant_whispers", "name": "Dissonant Whispers", "school": "Enchantment"},
+      {"id": "spell_faerie_fire", "name": "Faerie Fire", "school": "Evocation"},
+      {"id": "spell_feather_fall", "name": "Feather Fall", "school": "Transmutation"},
+      {"id": "spell_healing_word", "name": "Healing Word", "school": "Abjuration"},
+      {"id": "spell_heroism", "name": "Heroism", "school": "Enchantment"},
+      {"id": "spell_identify", "name": "Identify", "school": "Divination", "ritual": true},
+      {"id": "spell_illusory_script", "name": "Illusory Script", "school": "Illusion", "ritual": true},
+      {"id": "spell_longstrider", "name": "Longstrider", "school": "Transmutation"},
+      {"id": "spell_silent_image", "name": "Silent Image", "school": "Illusion"},
+      {"id": "spell_sleep", "name": "Sleep", "school": "Enchantment"},
+      {"id": "spell_speak_with_animals", "name": "Speak with Animals", "school": "Divination", "ritual": true},
+      {"id": "spell_tashas_hideous_laughter", "name": "Tasha_s Hideous Laughter", "school": "Enchantment"},
+      {"id": "spell_thunderwave", "name": "Thunderwave", "school": "Evocation"},
+      {"id": "spell_unseen_servant", "name": "Unseen Servant", "school": "Conjuration", "ritual": true}
+    ],
+    "level_2": [
+      {"id": "spell_aid", "name": "Aid", "school": "Abjuration"},
+      {"id": "spell_animal_messenger", "name": "Animal Messenger", "school": "Enchantment", "ritual": true},
+      {"id": "spell_blindness_deafness", "name": "Blindness/Deafness", "school": "Transmutation"},
+      {"id": "spell_calm_emotions", "name": "Calm Emotions", "school": "Enchantment"},
+      {"id": "spell_cloud_of_daggers", "name": "Cloud of Daggers", "school": "Conjuration"},
+      {"id": "spell_crown_of_madness", "name": "Crown of Madness", "school": "Enchantment"},
+      {"id": "spell_detect_thoughts", "name": "Detect Thoughts", "school": "Divination"},
+      {"id": "spell_enhance_ability", "name": "Enhance Ability", "school": "Transmutation"},
+      {"id": "spell_enlarge_reduce", "name": "Enlarge/Reduce", "school": "Transmutation"},
+      {"id": "spell_enthrall", "name": "Enthrall", "school": "Enchantment"},
+      {"id": "spell_heat_metal", "name": "Heat Metal", "school": "Transmutation"},
+      {"id": "spell_hold_person", "name": "Hold Person", "school": "Enchantment"},
+      {"id": "spell_invisibility", "name": "Invisibility", "school": "Illusion"},
+      {"id": "spell_knock", "name": "Knock", "school": "Transmutation"},
+      {"id": "spell_lesser_restoration", "name": "Lesser Restoration", "school": "Abjuration"},
+      {"id": "spell_locate_animals_or_plants", "name": "Locate Animals or Plants", "school": "Divination", "ritual": true},
+      {"id": "spell_locate_object", "name": "Locate Object", "school": "Divination"},
+      {"id": "spell_magic_mouth", "name": "Magic Mouth", "school": "Illusion", "ritual": true},
+      {"id": "spell_mirror_image", "name": "Mirror Image", "school": "Illusion"},
+      {"id": "spell_phantasmal_force", "name": "Phantasmal Force", "school": "Illusion"},
+      {"id": "spell_see_invisibility", "name": "See Invisibility", "school": "Divination"},
+      {"id": "spell_shatter", "name": "Shatter", "school": "Evocation"},
+      {"id": "spell_silence", "name": "Silence", "school": "Illusion", "ritual": true},
+      {"id": "spell_suggestion", "name": "Suggestion", "school": "Enchantment"},
+      {"id": "spell_zone_of_truth", "name": "Zone of Truth", "school": "Enchantment"}
+    ],
+    "level_3": [
+      {"id": "spell_bestow_curse", "name": "Bestow Curse", "school": "Necromancy"},
+      {"id": "spell_clairvoyance", "name": "Clairvoyance", "school": "Divination"},
+      {"id": "spell_dispel_magic", "name": "Dispel Magic", "school": "Abjuration"},
+      {"id": "spell_fear", "name": "Fear", "school": "Illusion"},
+      {"id": "spell_feign_death", "name": "Feign Death", "school": "Necromancy", "ritual": true},
+      {"id": "spell_glyph_of_warding", "name": "Glyph of Warding", "school": "Abjuration"},
+      {"id": "spell_hypnotic_pattern", "name": "Hypnotic Pattern", "school": "Illusion"},
+      {"id": "spell_leomunds_tiny_hut", "name": "Leomund_s Tiny Hut", "school": "Evocation", "ritual": true},
+      {"id": "spell_major_image", "name": "Major Image", "school": "Illusion"},
+      {"id": "spell_mass_healing_word", "name": "Mass Healing Word", "school": "Abjuration"},
+      {"id": "spell_nondetection", "name": "Nondetection", "school": "Abjuration"},
+      {"id": "spell_plant_growth", "name": "Plant Growth", "school": "Transmutation"},
+      {"id": "spell_sending", "name": "Sending", "school": "Divination"},
+      {"id": "spell_slow", "name": "Slow", "school": "Transmutation"},
+      {"id": "spell_speak_with_dead", "name": "Speak with Dead", "school": "Necromancy"},
+      {"id": "spell_speak_with_plants", "name": "Speak with Plants", "school": "Transmutation"},
+      {"id": "spell_stinking_cloud", "name": "Stinking Cloud", "school": "Conjuration"},
+      {"id": "spell_tongues", "name": "Tongues", "school": "Divination"}
+    ],
+    "level_4": [
+      {"id": "spell_charm_monster", "name": "Charm Monster", "school": "Enchantment"},
+      {"id": "spell_compulsion", "name": "Compulsion", "school": "Enchantment"},
+      {"id": "spell_confusion", "name": "Confusion", "school": "Enchantment"},
+      {"id": "spell_dimension_door", "name": "Dimension Door", "school": "Conjuration"},
+      {"id": "spell_fount_of_moonlight", "name": "Fount of Moonlight", "school": "Evocation"},
+      {"id": "spell_freedom_of_movement", "name": "Freedom of Movement", "school": "Abjuration"},
+      {"id": "spell_greater_invisibility", "name": "Greater Invisibility", "school": "Illusion"},
+      {"id": "spell_hallucinatory_terrain", "name": "Hallucinatory Terrain", "school": "Illusion"},
+      {"id": "spell_locate_creature", "name": "Locate Creature", "school": "Divination"},
+      {"id": "spell_phantasmal_killer", "name": "Phantasmal Killer", "school": "Illusion"},
+      {"id": "spell_polymorph", "name": "Polymorph", "school": "Transmutation"}
+    ],
+    "level_5": [
+      {"id": "spell_animate_objects", "name": "Animate Objects", "school": "Transmutation"},
+      {"id": "spell_awaken", "name": "Awaken", "school": "Transmutation"},
+      {"id": "spell_dominate_person", "name": "Dominate Person", "school": "Enchantment"},
+      {"id": "spell_dream", "name": "Dream", "school": "Illusion"},
+      {"id": "spell_geas", "name": "Geas", "school": "Enchantment"},
+      {"id": "spell_greater_restoration", "name": "Greater Restoration", "school": "Abjuration"},
+      {"id": "spell_hold_monster", "name": "Hold Monster", "school": "Enchantment"},
+      {"id": "spell_legend_lore", "name": "Legend Lore", "school": "Divination"},
+      {"id": "spell_mass_cure_wounds", "name": "Mass Cure Wounds", "school": "Abjuration"},
+      {"id": "spell_mislead", "name": "Mislead", "school": "Illusion"},
+      {"id": "spell_modify_memory", "name": "Modify Memory", "school": "Enchantment"},
+      {"id": "spell_planar_binding", "name": "Planar Binding", "school": "Abjuration"},
+      {"id": "spell_raise_dead", "name": "Raise Dead", "school": "Necromancy"},
+      {"id": "spell_rarys_telepathic_bond", "name": "Rary_s Telepathic Bond", "school": "Divination", "ritual": true},
+      {"id": "spell_scrying", "name": "Scrying", "school": "Divination"},
+      {"id": "spell_seeming", "name": "Seeming", "school": "Illusion"},
+      {"id": "spell_synaptic_static", "name": "Synaptic Static", "school": "Enchantment"},
+      {"id": "spell_teleportation_circle", "name": "Teleportation Circle", "school": "Conjuration"},
+      {"id": "spell_yolandes_regal_presence", "name": "Yolande_s Regal Presence", "school": "Enchantment"}
+    ],
+    "level_6": [
+      {"id": "spell_eyebite", "name": "Eyebite", "school": "Necromancy"},
+      {"id": "spell_find_the_path", "name": "Find the Path", "school": "Divination"},
+      {"id": "spell_guards_and_wards", "name": "Guards and Wards", "school": "Abjuration"},
+      {"id": "spell_heroes_feast", "name": "Heroes_ Feast", "school": "Conjuration"},
+      {"id": "spell_mass_suggestion", "name": "Mass Suggestion", "school": "Enchantment"},
+      {"id": "spell_ottos_irresistible_dance", "name": "Otto_s Irresistible Dance", "school": "Enchantment"},
+      {"id": "spell_programmed_illusion", "name": "Programmed Illusion", "school": "Illusion"},
+      {"id": "spell_true_seeing", "name": "True Seeing", "school": "Divination"}
+    ],
+    "level_7": [
+      {"id": "spell_etherealness", "name": "Etherealness", "school": "Conjuration"},
+      {"id": "spell_forcecage", "name": "Forcecage", "school": "Evocation"},
+      {"id": "spell_mirage_arcane", "name": "Mirage Arcane", "school": "Illusion"},
+      {"id": "spell_mordenkainens_magnificent_mansion", "name": "Mordenkainen_s Magnificent Mansion", "school": "Conjuration"},
+      {"id": "spell_mordenkainens_sword", "name": "Mordenkainen_s Sword", "school": "Evocation"},
+      {"id": "spell_power_word_fortify", "name": "Power Word Fortify", "school": "Enchantment"},
+      {"id": "spell_prismatic_spray", "name": "Prismatic Spray", "school": "Evocation"},
+      {"id": "spell_project_image", "name": "Project Image", "school": "Illusion"},
+      {"id": "spell_regenerate", "name": "Regenerate", "school": "Transmutation"},
+      {"id": "spell_resurrection", "name": "Resurrection", "school": "Necromancy"},
+      {"id": "spell_symbol", "name": "Symbol", "school": "Abjuration"},
+      {"id": "spell_teleport", "name": "Teleport", "school": "Conjuration"}
+    ],
+    "level_8": [
+      {"id": "spell_antipathy_sympathy", "name": "Antipathy/Sympathy", "school": "Enchantment"},
+      {"id": "spell_befuddlement", "name": "Befuddlement", "school": "Enchantment"},
+      {"id": "spell_dominate_monster", "name": "Dominate Monster", "school": "Enchantment"},
+      {"id": "spell_glibness", "name": "Glibness", "school": "Enchantment"},
+      {"id": "spell_mind_blank", "name": "Mind Blank", "school": "Abjuration"},
+      {"id": "spell_power_word_stun", "name": "Power Word Stun", "school": "Enchantment"}
+    ],
+    "level_9": [
+      {"id": "spell_foresight", "name": "Foresight", "school": "Divination"},
+      {"id": "spell_power_word_heal", "name": "Power Word Heal", "school": "Enchantment"},
+      {"id": "spell_power_word_kill", "name": "Power Word Kill", "school": "Enchantment"},
+      {"id": "spell_prismatic_wall", "name": "Prismatic Wall", "school": "Abjuration"},
+      {"id": "spell_true_polymorph", "name": "True Polymorph", "school": "Transmutation"}
+    ]
+  },
+  "source": "D&D Beyond Basic Rules 2024 - Bard Class"
+}

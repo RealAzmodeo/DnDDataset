@@ -1,0 +1,42 @@
+{
+  "id": "path_of_the_zealot_2024",
+  "name": "Path of the Zealot (Barbarian Subclass - 2024)",
+  "class_id": "barbarian_2024",
+  "description": "Path of the Zealot Barbarians are divinely inspired warriors whose rage is a channel for godly power.",
+  "source": "RPGBOT 2024 Barbarian Subclasses Guide (PHB)",
+  "features_by_level": {
+    "3": [
+      {
+        "id": "zealot_divine_fury_2024",
+        "name": "Divine Fury",
+        "description": "While you_re raging, the first creature you hit on each of your turns with a weapon attack takes extra damage equal to 1d6 + half your barbarian level. The extra damage is necrotic or radiant; you choose the type of damage when you gain this feature."
+      },
+      {
+        "id": "zealot_warrior_of_the_gods_2024",
+        "name": "Warrior of the Gods",
+        "description": "If a spell, such as revivify, has the sole effect of restoring you to life (but not undeath), the caster doesn’t need material components to cast the spell on you."
+      }
+    ],
+    "6": [
+      {
+        "id": "zealot_fanatical_focus_2024",
+        "name": "Fanatical Focus",
+        "description": "If you fail a saving throw while you_re raging, you can reroll it, and you must use the new roll. You can use this ability only once per rage. (RPGBOT guide suggests Rage Damage bonus can be added to this reroll, needs PHB confirmation)."
+      }
+    ],
+    "10": [
+      {
+        "id": "zealot_zealous_presence_2024",
+        "name": "Zealous Presence",
+        "description": "As a bonus action, you can choose up to 10 creatures you can see within 60 feet of you. For 1 minute, each chosen creature has advantage on attack rolls and saving throws. Once you use this feature, you can_t use it again until you finish a long rest, or you can expend a use of your Rage to use it again."
+      }
+    ],
+    "14": [
+      {
+        "id": "zealot_rage_beyond_death_2024",
+        "name": "Rage Beyond Death",
+        "description": "While you’re raging, having 0 hit points doesn’t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don’t die until your rage ends, and you die then only if you still have 0 hit points."
+      }
+    ]
+  }
+}

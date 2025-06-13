@@ -1,0 +1,12 @@
+{
+  "Ability Score": "One of the six statistics that determine a character's capabilities: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma.",
+  "Armor Class (AC)": "A measure of how difficult it is for an attack to hit a creature. Higher AC is better.",
+  "Hit Points (HP)": "A measure of a creature's health and vitality. When HP drops to 0, a creature is typically knocked unconscious or killed.",
+  "Saving Throw": "A roll made to resist or mitigate a spell, trap, poison, disease, or similar threat.",
+  "Spell Slot": "A resource a spellcaster uses to cast spells. Spells of higher levels require higher-level spell slots.",
+  "Cantrip": "A spell that can be cast at will, without using a spell slot, and without being prepared in advance.",
+  "Proficiency Bonus": "A bonus added to d20 rolls for skills, saving throws, or attack rolls if a character is proficient with them. This bonus increases as a character gains levels.",
+  "Action": "The primary thing a character can do on their turn in combat (e.g., attack, cast a spell, dash).",
+  "Bonus Action": "A smaller, quicker action a character can take on their turn in addition to their main action, if a feature or spell allows it.",
+  "Reaction": "An action a character can take in response to a trigger, even when it's not their turn."
+}

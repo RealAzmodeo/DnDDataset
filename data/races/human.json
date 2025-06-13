@@ -1,0 +1,23 @@
+{
+  "id": "human",
+  "name": "Human",
+  "description": "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
+  "ability_score_increases": {
+    "strength": 1,
+    "dexterity": 1,
+    "constitution": 1,
+    "intelligence": 1,
+    "wisdom": 1,
+    "charisma": 1
+  },
+  "size": "Medium",
+  "speed": 30,
+  "languages": ["Common", "One extra language of your choice"],
+  "traits": [
+    {
+      "id": "human_versatility",
+      "name": "Versatility",
+      "description": "You gain proficiency in one skill of your choice."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "fighter",
+  "name": "Fighter",
+  "description": "Fighters share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. They are well acquainted with death, both meting it out and staring it defiantly in the face.",
+  "hit_die": "d10",
+  "proficiencies": {
+    "armor": ["Light armor", "Medium armor", "Heavy armor", "Shields"],
+    "weapons": ["Simple weapons", "Martial weapons"],
+    "tools": ["None"],
+    "skills": {
+      "choose": 2,
+      "from": ["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Perception", "Survival"]
+    }
+  },
+  "saving_throws": ["Strength", "Constitution"],
+  "starting_equipment": [
+    "Chain mail or leather armor, longbow, and 20 arrows",
+    "A martial weapon and a shield or two martial weapons",
+    "A light crossbow and 20 bolts or two handaxes",
+    "A dungeoneer's pack or an explorer's pack"
+  ],
+  "features_by_level": {
+    "1": [
+      {
+        "id": "fighter_fighting_style",
+        "name": "Fighting Style",
+        "description": "You adopt a particular style of fighting as your specialty. Choose one of the available fighting styles. You can’t take a Fighting Style option more than once, even if you later get to choose again."
+      },
+      {
+        "id": "fighter_second_wind",
+        "name": "Second Wind",
+        "description": "You have a limited well of stamina you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
+      }
+    ],
+    "2": [
+      {
+        "id": "fighter_action_surge",
+        "name": "Action Surge",
+        "description": "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action. Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
+      }
+    ]
+  }
+}
